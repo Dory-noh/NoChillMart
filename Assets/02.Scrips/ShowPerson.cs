@@ -9,6 +9,8 @@ public class ShowPerson : MonoBehaviour
     public Image[] images;
     public Text infoText;
     public PersonData_ver2 personData;
+    bool isAlien = false;
+
     //지피티 활용해 수집함.
     string[] firstName =
         {"김", "이", "박", "최", "정", "강", "조", "윤", "장", "임",
@@ -72,7 +74,8 @@ int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
     public void GenerateCustormer()
     {
         int len = 6;
-
+        float alienProbability = Random.Range(0.0f, 2.0f);
+        isAlien = (alienProbability < 1.3f) ? false : true; 
         int[] idx = new int[len-1];
         for(int i = 0; i < idx.Length; i++)
         {
@@ -89,7 +92,15 @@ int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
             $"발급 장소 : {address}청";
 
         images[0].sprite = personData.faces[idx[0]];
-        images[1].sprite = personData.eyes[idx[1]];
+        if (isAlien == true)
+        {
+            images[0].color = Color.green;
+        }
+        else
+        {
+            images[0].color = Color.white;
+        }
+            images[1].sprite = personData.eyes[idx[1]];
         images[2].sprite = personData.hairs_front[idx[2]];
         images[3].sprite = personData.hairs_back[idx[2]];//앞 머리와 뒷 머리 랜덤 선택 인덱스 값 같음
         images[4].sprite = personData.noses[idx[3]];
