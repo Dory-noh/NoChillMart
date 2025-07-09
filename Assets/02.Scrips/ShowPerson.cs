@@ -1,12 +1,19 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ShowPerson : MonoBehaviour
 {
-    public Image[] images;
+    public Image[] faceImgArr;
+    public Image[] eyeImgArr;
+    public Image[] hairBackImgArr;
+    public Image[] hairFrontImgArr;
+    public Image[] noseImgArr;
+    public Image[] mouthImgArr;
+
     public Text infoText;
     public PersonData_ver2 personData;
     bool isAlien = false;
@@ -70,7 +77,6 @@ public class ShowPerson : MonoBehaviour
 };
 int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
-
     public void GenerateCustormer()
     {
         int len = 6;
@@ -91,20 +97,24 @@ int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
             $"발급 일자 : {GenerateIDate(INum.Substring(0,8))}\n" +
             $"발급 장소 : {address}청";
 
-        images[0].sprite = personData.faces[idx[0]];
-        if (isAlien == true)
+        for(int i = 0; i < faceImgArr.Length; i++)
         {
-            images[0].color = Color.green;
+            faceImgArr[i].sprite = personData.faces[idx[0]];
+            if (isAlien == true &&  i==1) //인덱스 1에 변조된 외계인 손님 이미지 등장
+            {
+                faceImgArr[i].color = Color.green;
+            }
+            else
+            {
+                faceImgArr[i].color = Color.white;
+            }
+            eyeImgArr[i].sprite = personData.eyes[idx[1]];
+            hairFrontImgArr[i].sprite = personData.hairs_front[idx[2]];
+            hairBackImgArr[i].sprite = personData.hairs_back[idx[2]];//앞 머리와 뒷 머리 랜덤 선택 인덱스 값 같음
+            noseImgArr[i].sprite = personData.noses[idx[3]];
+            mouthImgArr[i].sprite = personData.mouths[idx[4]];
         }
-        else
-        {
-            images[0].color = Color.white;
-        }
-            images[1].sprite = personData.eyes[idx[1]];
-        images[2].sprite = personData.hairs_front[idx[2]];
-        images[3].sprite = personData.hairs_back[idx[2]];//앞 머리와 뒷 머리 랜덤 선택 인덱스 값 같음
-        images[4].sprite = personData.noses[idx[3]];
-        images[5].sprite = personData.mouths[idx[4]];
+        
     }
 
     public string GenerateName()
