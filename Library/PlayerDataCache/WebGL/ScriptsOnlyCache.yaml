@@ -157,19 +157,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17578}
     - Class: 114
-      Script: {instanceID: 17652}
+      Script: {instanceID: 17636}
     - Class: 114
-      Script: {instanceID: 17722}
+      Script: {instanceID: 17654}
     - Class: 114
-      Script: {instanceID: 17750}
+      Script: {instanceID: 17724}
     - Class: 114
-      Script: {instanceID: 17776}
+      Script: {instanceID: 17752}
     - Class: 114
-      Script: {instanceID: 17796}
+      Script: {instanceID: 17778}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 17798}
     - Class: 114
-      Script: {instanceID: 75228}
+      Script: {instanceID: 17812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -657,6 +657,12 @@ ScriptsOnlyBuild:
     className: CinemachineTrackedDolly
   - hash:
       serializedVersion: 2
+      Hash: eea860c930b241008196b6212d581ad4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: 7e93247d600e115dac0cdd880de94e99
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -769,12 +775,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineOrbitalTransposer
-  - hash:
-      serializedVersion: 2
-      Hash: eea860c930b241008196b6212d581ad4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainScene.unity
