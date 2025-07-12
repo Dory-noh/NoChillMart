@@ -341,6 +341,7 @@
 "Assets/02.Scrips/ShowPerson.cs"
 "Assets/02.Scrips/TestFolder/CustomerData.cs"
 "Assets/02.Scrips/TestFolder/CustomerGenerator.cs"
+"Assets/02.Scrips/TestFolder/GameManager.cs"
 "Assets/02.Scrips/UIManager.cs"
 -langversion:9.0
 /deterministic

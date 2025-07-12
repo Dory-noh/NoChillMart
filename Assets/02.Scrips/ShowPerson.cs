@@ -175,4 +175,9 @@ int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
         return $"{year.ToString()}. {month.ToString("D2")}. {day.ToString("D2")}";
     }
+
+    public void CheckAlien(bool answer)
+    {
+        if (isAlien != answer) GameManager.Instance.ReduceLife();
+    }
 }
