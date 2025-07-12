@@ -18,8 +18,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -591,7 +593,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 1a3fc48e8bab9b2d5b1b187d80d0d935
+      Hash: 23ba08286da62b65530b39e2a7d9944b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement
@@ -778,4 +780,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: D:/NDR/[teamPop1]NoChillMart
+  playerPath: D:/NDR/[teamPop1]NoChillMart/NoChillMart/Build
