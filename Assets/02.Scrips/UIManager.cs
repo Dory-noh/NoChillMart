@@ -6,10 +6,8 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
-    public GameObject IDCardUI;
-    public GameObject OutOptionBtns;
-    bool isShowIDCard = false;
-    bool isShowOutOptionBtn = false;
+    public GameObject[] UIArr; //Toggle할 UI 담아놓을 배열
+    bool[] isShowUIArr; //UI 활성화 체크용 bool 변수
     public Text ConversationText; //대화 텍스트
     string[] conversation = { "안녕하세요.", "민증 확인하겠습니다.", "계산됐습니다.", "나가주세요.", "외계인 신고합니다." };
     bool[] conversationBoolArr = {false, false, false, false};
@@ -19,15 +17,12 @@ public class UIManager : MonoBehaviour
     {
         if (instance == null) { instance = this; }
         else if (instance != this) Destroy(gameObject);
-        IDCardUI.SetActive(false);
+        isShowUIArr = new bool[UIArr.Length];
+        for (int i = 0; i < UIArr.Length; i++) //UI들 가리기
+        {
+            UIArr[i].SetActive(false);
+        }
         ResetConversation();
-        OutOptionBtns.SetActive(false);
-    }
-
-    public void ToggleOutOptionBtns()
-    {
-        isShowOutOptionBtn = !isShowOutOptionBtn;
-        OutOptionBtns.gameObject.SetActive(isShowOutOptionBtn);
     }
 
     public void ResetConversation()
@@ -43,15 +38,15 @@ public class UIManager : MonoBehaviour
         gameObject.GetComponent<ItemManager>().ShowRandomItems();
     }
 
-    public void ToggleIDCardUI()
+    public void ToggleUI(int idx)//0:진상찾기 UI 1: 민증 UI 2: OUT 상세 버튼
     {
-        if (GameManager.Instance.IsGameOver)
+        if (GameManager.Instance.IsGameOver) //게임 오버인 경우 UI ON/Off 작동시키지 않음
         {
-            isShowIDCard = false;
+            //isShowIDCard = false;
             return;
         }
-        else isShowIDCard = !isShowIDCard;
-        IDCardUI.gameObject.SetActive(isShowIDCard);
+        else isShowUIArr[idx] = !isShowUIArr[idx];
+        UIArr[idx].gameObject.SetActive(isShowUIArr[idx]);
     }
 
     public void ShowPassAction()

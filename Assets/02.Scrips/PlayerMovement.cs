@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject GameUI;
-    bool isShow = true;
+    
     private CharacterController cc;
     private Animator animator;
 
@@ -31,8 +30,7 @@ public class PlayerMovement : MonoBehaviour
         Move();
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            isShow = !isShow;
-            GameUI.SetActive(isShow);
+            UIManager.instance.ToggleUI(0);
         }
     }
 
