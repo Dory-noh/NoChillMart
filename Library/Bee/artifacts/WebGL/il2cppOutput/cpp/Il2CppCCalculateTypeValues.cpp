@@ -6465,13 +6465,13 @@ struct U3CU3Ec_t6042E22AA75B815EB5AFF67CF2E5338D33120D3D  : public RuntimeObject
 struct U3CU3Ec_t75D3DBB2D38F889557135A53513BEE0B500F3DD7  : public RuntimeObject
 {
 };
-struct U3CWaitResetU3Ed__18_tA7CB467A1E9FC6ABABF86EA67BA1A8D712F9C9AC  : public RuntimeObject
+struct U3CWaitResetU3Ed__15_t935FBC5C553C56590F60C81C282FD3DCD1686776  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
 	UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* ___U3CU3E4__this;
 };
-struct U3CWaitShowConversationU3Ed__17_tCDC3191F91BE46D79C50B795237FF2DEC92BC300  : public RuntimeObject
+struct U3CWaitShowConversationU3Ed__14_tE2150402B295BF3898A307960DA5A4CE5E1FE5EF  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -29944,8 +29944,6 @@ struct NavigationSubmitEvent_t193DCBDB6CBC8FF9F0A545B48962188505665BB1  : public
 };
 struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GameUI;
-	bool ___isShow;
 	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___cc;
 	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator;
 	float ___moveSpeed;
@@ -30288,10 +30286,8 @@ struct UIDocument_t4186BEBCC01278F63B895274AA08AD9ADFBF4C77  : public MonoBehavi
 };
 struct UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___IDCardUI;
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___OutOptionBtns;
-	bool ___isShowIDCard;
-	bool ___isShowOutOptionBtn;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___UIArr;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___isShowUIArr;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___ConversationText;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___conversation;
 	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___conversationBoolArr;
@@ -44183,9 +44179,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize4008 = { sizeof(CustomerGene
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4009;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4009 = { sizeof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6), -1, sizeof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4010;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize4010 = { sizeof(U3CWaitResetU3Ed__18_tA7CB467A1E9FC6ABABF86EA67BA1A8D712F9C9AC), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize4010 = { sizeof(U3CWaitResetU3Ed__15_t935FBC5C553C56590F60C81C282FD3DCD1686776), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4011;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize4011 = { sizeof(U3CWaitShowConversationU3Ed__17_tCDC3191F91BE46D79C50B795237FF2DEC92BC300), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize4011 = { sizeof(U3CWaitShowConversationU3Ed__14_tE2150402B295BF3898A307960DA5A4CE5E1FE5EF), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4012;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize4012 = { sizeof(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3), -1, sizeof(UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize4013;
