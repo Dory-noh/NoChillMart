@@ -393,8 +393,8 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Build/Build/fcff49e8baf3dc645758ad795c91d52f.wasm","enqueuedNodeIndex":393,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json","enqueuedNodeIndex":394,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Temp/EditorBuildOutput/MethodMap.tsv","enqueuedNodeIndex":395,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Build/Build/3b0099c63a52cd4acf74fb950130ebe0.data","enqueuedNodeIndex":398,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueuedNodeIndex":397,"enqueueingNodeAnnotation":"CopyFiles Build/Build/3b0099c63a52cd4acf74fb950130ebe0.data","enqueueingNodeIndex":398}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Build/Build/a76c43837fb0d18f6af1e2a87f73daf7.data","enqueuedNodeIndex":398,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueuedNodeIndex":397,"enqueueingNodeAnnotation":"CopyFiles Build/Build/a76c43837fb0d18f6af1e2a87f73daf7.data","enqueueingNodeIndex":398}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueueingNodeIndex":397}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/csharpactions/boot.config_7kyv.info","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config","enqueueingNodeIndex":2}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info","enqueuedNodeIndex":396,"enqueueingNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueueingNodeIndex":397}
@@ -413,6 +413,6 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Build/TemplateData/style.css","enqueuedNodeIndex":411,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Build/TemplateData/unity-logo-dark.png","enqueuedNodeIndex":412,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Build/TemplateData/unity-logo-light.png","enqueuedNodeIndex":413,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":414}
-{"msg":"newNode","annotation":"CopyFiles Build/Build/216b33d740757b84cc974d3af6d36007.loader.js","index":400}
+{"msg":"inputSignatureChanged","annotation":"CopyFiles Build/Build/216b33d740757b84cc974d3af6d36007.loader.js","index":400,"changes":[{"key":"FileList","value":["Library\\Bee\\artifacts\\WebGLBuild.loader.js"],"oldvalue":[],"dependency":"explicit"}]}
 {"msg":"runNodeAction","annotation":"CopyFiles Build/Build/216b33d740757b84cc974d3af6d36007.loader.js","displayName":"Copying 216b33d740757b84cc974d3af6d36007.loader.js","index":400}
-{"msg":"noderesult","processed_node_count":214,"number_of_nodes_ever_queued":414,"annotation":"CopyFiles Build/Build/216b33d740757b84cc974d3af6d36007.loader.js","index":400,"exitcode":0,"outputfile":"Build\\Build\\216b33d740757b84cc974d3af6d36007.loader.js"}
+{"msg":"noderesult","processed_node_count":412,"number_of_nodes_ever_queued":414,"annotation":"CopyFiles Build/Build/216b33d740757b84cc974d3af6d36007.loader.js","index":400,"exitcode":0,"outputfile":"Build\\Build\\216b33d740757b84cc974d3af6d36007.loader.js"}
