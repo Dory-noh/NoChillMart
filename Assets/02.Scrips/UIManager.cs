@@ -1,5 +1,6 @@
  using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +13,8 @@ public class UIManager : MonoBehaviour
     string[] conversation = { "안녕하세요.", "민증 확인하겠습니다.", "계산됐습니다.", "나가주세요.", "외계인 신고합니다." };
     bool[] conversationBoolArr = {false, false, false, false};
     public Text priceText; //판매 금액 텍스트
+    public Image StoryImage;
+    public Sprite[] storySpriteArr;
 
     void Awake()
     {
@@ -23,6 +26,12 @@ public class UIManager : MonoBehaviour
             UIArr[i].SetActive(false);
         }
         ResetConversation();
+    }
+
+    void Start()
+    {
+        ToggleUI(3);
+        StartCoroutine(ShowStory());
     }
 
     public void ResetConversation()
@@ -95,4 +104,13 @@ public class UIManager : MonoBehaviour
         gameObject.GetComponent<ShowPerson>().GenerateCustormer();
     }
 
+    IEnumerator ShowStory()
+    {
+        for (int i = 0; i < storySpriteArr.Length; i++)
+        {
+            StoryImage.sprite = storySpriteArr[i];
+            yield return new WaitForSeconds(1f);
+        }
+        ToggleUI(3);
+    }
 }
