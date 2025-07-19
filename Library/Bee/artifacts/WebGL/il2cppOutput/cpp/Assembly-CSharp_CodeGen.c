@@ -20,6 +20,12 @@ extern void PersonInfo__ctor_m473B7F0238662DE1FE23F952032C103A9C6ABC34 (void);
 extern void PersonData_ver2__ctor_mB3845BDCC1D85501B3E55FB26447F5EBA3393CBF (void);
 extern void PlayerMovement_Start_m83FD44DCA324CE3D05A71FD2E2991FCD743F003A (void);
 extern void PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3 (void);
+extern void PlayerMovement_MoveForward_m570FF7B8C15617D2DE565ADAF2736F9CC4132F76 (void);
+extern void PlayerMovement_MoveBackward_m6FE7F4BECBE54CB0E82D2F61D487AAC627DB7767 (void);
+extern void PlayerMovement_MoveYReset_m69B80F70E65EEEEA31613480F5EF6DD734B0843A (void);
+extern void PlayerMovement_MoveXReset_mF4384285E9AD831A4A42B408C7C1E8559F14521A (void);
+extern void PlayerMovement_MoveLeft_mBEFC2DDE47EC368E5D55148D116F29E77A857191 (void);
+extern void PlayerMovement_MoveRight_m221FD51D792F8EBE7876109C7E306A006B554534 (void);
 extern void PlayerMovement_Move_m49FF83A1018F85FA83A97516D57FE7D8331EB1C9 (void);
 extern void PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA (void);
 extern void ShowPerson_GenerateCustormer_mCA8BDFBC49DBAF07BA92F15F6697978DA2201CEE (void);
@@ -69,7 +75,7 @@ extern void U3CWaitShowConversationU3Ed__17_System_Collections_IEnumerator_Reset
 extern void U3CWaitShowConversationU3Ed__17_System_Collections_IEnumerator_get_Current_m5CD3DC35451052EDA56D926B4C4797A31A88E4F8 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[57] = 
+static Il2CppMethodPointer s_methodPointers[63] = 
 {
 	ItemManager_ShowRandomItems_m20DC8CAE2063F9DA80C0A48F6E145B09D63E25CB,
 	ItemManager_UpdateSaleText_m9B89119234291B449BD468DDA24B6703CC3E3328,
@@ -79,6 +85,12 @@ static Il2CppMethodPointer s_methodPointers[57] =
 	PersonData_ver2__ctor_mB3845BDCC1D85501B3E55FB26447F5EBA3393CBF,
 	PlayerMovement_Start_m83FD44DCA324CE3D05A71FD2E2991FCD743F003A,
 	PlayerMovement_Update_m5BB6CE35AF68EE00CFEB4BA5EBA17E10667551D3,
+	PlayerMovement_MoveForward_m570FF7B8C15617D2DE565ADAF2736F9CC4132F76,
+	PlayerMovement_MoveBackward_m6FE7F4BECBE54CB0E82D2F61D487AAC627DB7767,
+	PlayerMovement_MoveYReset_m69B80F70E65EEEEA31613480F5EF6DD734B0843A,
+	PlayerMovement_MoveXReset_mF4384285E9AD831A4A42B408C7C1E8559F14521A,
+	PlayerMovement_MoveLeft_mBEFC2DDE47EC368E5D55148D116F29E77A857191,
+	PlayerMovement_MoveRight_m221FD51D792F8EBE7876109C7E306A006B554534,
 	PlayerMovement_Move_m49FF83A1018F85FA83A97516D57FE7D8331EB1C9,
 	PlayerMovement__ctor_mB37559C5B0638161878D20E00B7C672FC38BBBAA,
 	ShowPerson_GenerateCustormer_mCA8BDFBC49DBAF07BA92F15F6697978DA2201CEE,
@@ -129,10 +141,16 @@ static Il2CppMethodPointer s_methodPointers[57] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[57] = 
+static const int32_t s_InvokerIndices[63] = 
 {
 	4528,
 	3633,
+	4528,
+	4528,
+	4528,
+	4528,
+	4528,
+	4528,
 	4528,
 	4528,
 	4528,
@@ -193,7 +211,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	57,
+	63,
 	s_methodPointers,
 	0,
 	NULL,

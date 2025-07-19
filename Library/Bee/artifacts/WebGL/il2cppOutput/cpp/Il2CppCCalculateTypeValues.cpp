@@ -29960,6 +29960,9 @@ struct PlayerMovement_t4A0A0A8C937BC1D4FC570D1B5B50847338423351  : public MonoBe
 	int32_t ___hashPosX;
 	int32_t ___hashPosY;
 	int32_t ___hashSpeed;
+	float ___x;
+	float ___z;
+	bool ___isBtnMove;
 };
 struct PointerCancelEvent_t566D42065C3B376AD49A44A406AFE929A6CFEE51  : public PointerEventBase_1_tE5B00823964EF715DC1ED310DB3F91B16D40D7C7
 {

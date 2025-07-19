@@ -18,20 +18,16 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEditor.UI.dll:
-    - UnityEditor.UI.ButtonEditor
-    - UnityEditor.UI.ImageEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -53,6 +49,8 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.PersistentListenerMode
     - UnityEngine.RectOffset
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
@@ -65,11 +63,23 @@ ScriptsOnlyBuild:
     fullTypeName: UIManager
     methodName: ToggleUI
   - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveBackward
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveYReset
+  - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: ToggleUI
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: ShowConversation
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveRight
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveXReset
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: ShowTroubleMakerOutAction
@@ -79,6 +89,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: ToggleUI
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveLeft
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveXReset
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveForward
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerMovement
+    methodName: MoveYReset
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: ToggleUI
@@ -161,6 +183,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 17244}
     - Class: 114
       Script: {instanceID: 17302}
+    - Class: 114
+      Script: {instanceID: 17366}
     - Class: 114
       Script: {instanceID: 17452}
     - Class: 114

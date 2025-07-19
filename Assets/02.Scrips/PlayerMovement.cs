@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+
     private CharacterController cc;
     private Animator animator;
 
@@ -19,6 +19,12 @@ public class PlayerMovement : MonoBehaviour
     private int hashPosY = Animator.StringToHash("PosY");
     private int hashSpeed = Animator.StringToHash("Speed");
 
+    float x;
+    float z;
+
+    //버튼으로 플레이어 움직임 조작
+    bool isBtnMove = false;
+
     void Start()
     {
         cc = GetComponent<CharacterController>();
@@ -28,21 +34,68 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         Move();
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             UIManager.instance.ToggleUI(0);
         }
     }
 
+    public void MoveForward()
+    {
+        isBtnMove = true;
+        z = 1;
+    }
+
+    public void MoveBackward()
+    {
+        isBtnMove = true;
+        z = -1;
+    }
+
+    public void MoveYReset()
+    {
+        z = 0;
+        if (x == 0 && z == 0)
+        {
+            isBtnMove = false;
+        }
+    }
+
+    public void MoveXReset()
+    {
+        x = 0;
+        if (x == 0 && z == 0)
+        {
+            isBtnMove = false;
+        }
+    }
+
+
+    public void MoveLeft()
+    {
+        isBtnMove = true;
+        x = -1;
+    }
+
+    public void MoveRight()
+    {
+        isBtnMove = true;
+        x = 1;
+    }
+
     private void Move()
     {
-        // WASD �Է� �ޱ�
-        float x = Input.GetAxis("Horizontal"); // A, D
-        float z = Input.GetAxis("Vertical");   // W, S
-        bool IsRun = Input.GetKeyDown(KeyCode.LeftShift);
-        //animator.SetFloat(hashPosX, x);
-        //animator.SetFloat(hashPosY, z);
+        if (!isBtnMove)
+        {
+            // WASD �Է� �ޱ�
+            x = Input.GetAxis("Horizontal"); // A, D
+            z = Input.GetAxis("Vertical");   // W, S
+            
+            //animator.SetFloat(hashPosX, x);
+            //animator.SetFloat(hashPosY, z);
+        }
 
+        bool IsRun = Input.GetKeyDown(KeyCode.LeftShift);
         float turnSpeed = 100f;
         transform.Rotate(Vector3.up * x * turnSpeed * Time.deltaTime);
         moveSpeed = (z == 0) ? 0 : (IsRun ? 5f : 3f);
