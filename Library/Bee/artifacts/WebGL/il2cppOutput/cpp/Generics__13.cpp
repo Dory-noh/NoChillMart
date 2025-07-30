@@ -115,7 +115,6 @@ struct Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
 struct Action_1_t6043513E89820190529C82ABBDD8FD0BB2A9AC09;
 struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
-struct Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930;
 struct Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8;
 struct BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA;
 struct BasicNode_1_t7B4D545DCD6949B2E1C85D63DF038E44602F7DDB;
@@ -5427,7 +5426,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	float ___m_Value;
 	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5471,12 +5469,9 @@ struct BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE  : p
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_ItemsSourceChangedCallback;
 	RuntimeObject* ___m_RebuildScheduled;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_TouchDownPosition;
-	int64_t ___m_LastPointerDownTimeStamp;
-	int32_t ___m_PointerDownCount;
 };
 struct BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA  : public BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7
 {
-	float ___m_AdjustedPageSizeFromClick;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___U3CdragContainerU3Ek__BackingField;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___U3CdragElementU3Ek__BackingField;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___U3CtrackElementU3Ek__BackingField;
@@ -8932,7 +8927,6 @@ inline float DynamicHeightVirtualizationController_1_get_anchorOffset_m3B627D12A
 	return ((  float (*) (DynamicHeightVirtualizationController_1_t696B0520A1F69715F47A9EA13FC58101EF1B1F8C*, const RuntimeMethod*))DynamicHeightVirtualizationController_1_get_anchorOffset_m3B627D12A0E08C115D5A746C68F03BEC90EE73E2_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AlignmentUtils_RoundToPanelPixelSize_mE16B13369760ECA45F1338111354C3827FF20CA1 (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___0_ve, float ___1_v, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
 inline bool DynamicHeightVirtualizationController_1_NeedsFill_m3972A68BF94E4D86958F276DF7844E0990B99BDB (DynamicHeightVirtualizationController_1_t696B0520A1F69715F47A9EA13FC58101EF1B1F8C* __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (DynamicHeightVirtualizationController_1_t696B0520A1F69715F47A9EA13FC58101EF1B1F8C*, const RuntimeMethod*))DynamicHeightVirtualizationController_1_NeedsFill_m3972A68BF94E4D86958F276DF7844E0990B99BDB_gshared)(__this, method);
@@ -9100,8 +9094,7 @@ inline bool HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB (HashSet_1_t
 {
 	return ((  bool (*) (HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2*, int32_t, const RuntimeMethod*))HashSet_1_Add_m9B0DD9902395EE95D3DC522264BE1EBBBD3513EB_gshared)(__this, ___0_item, method);
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_size_m346E4F7077E5A1C0F4E21966232CD726CB9E6BAA_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualElement_MarkDirtyRepaint_mB708A0EAFDE7A535A3E4131FF99F6ED6C61490B6 (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496 (BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___0_message, const RuntimeMethod* method) ;
@@ -16543,7 +16536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicHeightVirtualizationController_1_
 		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_22;
 		L_22 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_21, NULL);
 		float L_23 = V_3;
-		VirtualActionInvoker1< float >::Invoke(118, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_22, L_23);
+		VirtualActionInvoker1< float >::Invoke(117, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_22, L_23);
 		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_24;
 		L_24 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_25 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_24->___scrollOffset);
@@ -16911,7 +16904,7 @@ IL_0075:
 		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_36;
 		L_36 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_35, NULL);
 		float L_37 = V_7;
-		VirtualActionInvoker1< float >::Invoke(118, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_36, L_37);
+		VirtualActionInvoker1< float >::Invoke(117, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_36, L_37);
 		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_38;
 		L_38 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_39 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_38->___scrollOffset);
@@ -18527,7 +18520,7 @@ IL_00ed:
 	{
 		float L_33 = V_4;
 		V_5 = L_33;
-		goto IL_0152;
+		goto IL_0146;
 	}
 
 IL_00fb:
@@ -18537,7 +18530,7 @@ IL_00fb:
 		bool L_35 = V_10;
 		if (!L_35)
 		{
-			goto IL_0152;
+			goto IL_0146;
 		}
 	}
 	{
@@ -18558,269 +18551,266 @@ IL_00fb:
 		L_43 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_8), NULL);
 		V_12 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_38, ((float)L_39))), L_43));
 		float L_44 = V_12;
-		float L_45 = V_4;
-		float L_46;
-		L_46 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_44, (0.0f), L_45, NULL);
-		V_5 = L_46;
+		V_5 = L_44;
 	}
 
-IL_0152:
+IL_0146:
 	{
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_47 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_48;
-		L_48 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_47, NULL);
-		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_49;
-		L_49 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_48, NULL);
-		float L_50 = V_4;
-		BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544((BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*)L_49, L_50, BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544_RuntimeMethod_var);
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_51 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_52;
-		L_52 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_51, NULL);
-		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_53;
-		L_53 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_52, NULL);
-		float L_54 = V_5;
-		VirtualActionInvoker1< float >::Invoke(118, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_53, L_54);
-		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_55;
-		L_55 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_56 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_55->___scrollOffset);
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_57 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_58;
-		L_58 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_57, NULL);
-		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_59;
-		L_59 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_58, NULL);
-		float L_60;
-		L_60 = VirtualFuncInvoker0< float >::Invoke(107, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_59);
-		L_56->___y = L_60;
-		__this->___m_ForcedLastVisibleItem = (-1);
-		bool L_61 = ___0_dimensionsOnly;
-		if (L_61)
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_45 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_46;
+		L_46 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_45, NULL);
+		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_47;
+		L_47 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_46, NULL);
+		float L_48 = V_4;
+		BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544((BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*)L_47, L_48, BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544_RuntimeMethod_var);
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_49 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_50;
+		L_50 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_49, NULL);
+		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_51;
+		L_51 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_50, NULL);
+		float L_52 = V_5;
+		VirtualActionInvoker1< float >::Invoke(117, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_51, L_52);
+		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_53;
+		L_53 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_54 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_53->___scrollOffset);
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_55 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_56;
+		L_56 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_55, NULL);
+		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_57;
+		L_57 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_56, NULL);
+		float L_58;
+		L_58 = VirtualFuncInvoker0< float >::Invoke(107, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_57);
+		L_54->___y = L_58;
+		bool L_59 = ___0_dimensionsOnly;
+		if (L_59)
 		{
-			goto IL_01bc;
+			goto IL_01a9;
 		}
 	}
 	{
-		int32_t L_62 = __this->___m_LastChange;
-		G_B14_0 = ((((int32_t)L_62) == ((int32_t)1))? 1 : 0);
-		goto IL_01bd;
+		int32_t L_60 = __this->___m_LastChange;
+		G_B14_0 = ((((int32_t)L_60) == ((int32_t)1))? 1 : 0);
+		goto IL_01aa;
 	}
 
-IL_01bc:
+IL_01a9:
 	{
 		G_B14_0 = 1;
 	}
 
-IL_01bd:
+IL_01aa:
 	{
 		V_13 = (bool)G_B14_0;
-		bool L_63 = V_13;
-		if (!L_63)
+		bool L_61 = V_13;
+		if (!L_61)
 		{
-			goto IL_01d0;
+			goto IL_01bd;
 		}
 	}
 	{
 		DynamicHeightVirtualizationController_1_ScheduleScrollDirectionReset_m8A2B0CE22017CC2042782C22DCA69A12A68CB688(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		goto IL_038e;
+		goto IL_0385;
 	}
 
-IL_01d0:
+IL_01bd:
 	{
-		bool L_64;
-		L_64 = DynamicHeightVirtualizationController_1_NeedsFill_m3972A68BF94E4D86958F276DF7844E0990B99BDB(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 52));
-		V_14 = L_64;
-		bool L_65 = V_14;
-		if (!L_65)
+		bool L_62;
+		L_62 = DynamicHeightVirtualizationController_1_NeedsFill_m3972A68BF94E4D86958F276DF7844E0990B99BDB(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 52));
+		V_14 = L_62;
+		bool L_63 = V_14;
+		if (!L_63)
 		{
-			goto IL_01ea;
+			goto IL_01d7;
 		}
 	}
 	{
 		DynamicHeightVirtualizationController_1_Fill_mA7073888D5EC40988647E9734271812A08AEFBE4(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		goto IL_038e;
+		goto IL_0385;
 	}
 
-IL_01ea:
+IL_01d7:
 	{
-		float L_66;
-		L_66 = DynamicHeightVirtualizationController_1_get_contentPadding_m107AA090895CE709946BE733FBC621E2EA5B59F1(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
-		V_15 = L_66;
-		int32_t L_67;
-		L_67 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		V_16 = L_67;
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_68 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ScrollInsertionList;
-		V_17 = L_68;
+		float L_64;
+		L_64 = DynamicHeightVirtualizationController_1_get_contentPadding_m107AA090895CE709946BE733FBC621E2EA5B59F1(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 23));
+		V_15 = L_64;
+		int32_t L_65;
+		L_65 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		V_16 = L_65;
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_66 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ScrollInsertionList;
+		V_17 = L_66;
 		V_18 = 0;
 		V_19 = 0;
-		goto IL_0308;
+		goto IL_02f8;
 	}
 
-IL_020e:
+IL_01fb:
 	{
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_69 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
-		int32_t L_70 = V_19;
-		RuntimeObject* L_71;
-		L_71 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_69, L_70, il2cpp_rgctx_method(method->klass->rgctx_data, 37));
-		V_20 = L_71;
-		RuntimeObject* L_72 = V_20;
-		int32_t L_73;
-		L_73 = ReusableCollectionItem_get_index_m39FCB0A8975CC57CBF964AB494B171CCA507CCB0_inline((ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_72, NULL);
-		V_21 = L_73;
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_67 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
+		int32_t L_68 = V_19;
+		RuntimeObject* L_69;
+		L_69 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_67, L_68, il2cpp_rgctx_method(method->klass->rgctx_data, 37));
+		V_20 = L_69;
+		RuntimeObject* L_70 = V_20;
+		int32_t L_71;
+		L_71 = ReusableCollectionItem_get_index_m39FCB0A8975CC57CBF964AB494B171CCA507CCB0_inline((ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_70, NULL);
+		V_21 = L_71;
+		int32_t L_72 = V_21;
+		V_23 = (bool)((((int32_t)L_72) < ((int32_t)0))? 1 : 0);
+		bool L_73 = V_23;
+		if (!L_73)
+		{
+			goto IL_0229;
+		}
+	}
+	{
+		goto IL_0310;
+	}
+
+IL_0229:
+	{
 		int32_t L_74 = V_21;
-		V_23 = (bool)((((int32_t)L_74) < ((int32_t)0))? 1 : 0);
-		bool L_75 = V_23;
-		if (!L_75)
-		{
-			goto IL_023c;
-		}
-	}
-	{
-		goto IL_0320;
-	}
-
-IL_023c:
-	{
-		int32_t L_76 = V_21;
-		float L_77;
-		L_77 = VirtualFuncInvoker1< float, int32_t >::Invoke(12, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, L_76);
-		V_22 = L_77;
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_78 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
-		int32_t L_79 = V_19;
+		float L_75;
+		L_75 = VirtualFuncInvoker1< float, int32_t >::Invoke(12, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, L_74);
+		V_22 = L_75;
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_76 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
+		int32_t L_77 = V_19;
+		RuntimeObject* L_78;
+		L_78 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_76, L_77, il2cpp_rgctx_method(method->klass->rgctx_data, 37));
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_79;
+		L_79 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_78);
 		RuntimeObject* L_80;
-		L_80 = List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38(L_78, L_79, il2cpp_rgctx_method(method->klass->rgctx_data, 37));
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_81;
-		L_81 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_80);
-		RuntimeObject* L_82;
-		L_82 = VisualElement_get_style_mDCFF8D835BE0AFE412905E108F48B32A83734224(L_81, NULL);
-		StyleEnum_1_t3B02FFF55849C9C8E6A7C0AA9C7E5F65F10C9C69 L_83;
-		L_83 = InterfaceFuncInvoker0< StyleEnum_1_t3B02FFF55849C9C8E6A7C0AA9C7E5F65F10C9C69 >::Invoke(17, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_82);
-		StyleEnum_1_t3B02FFF55849C9C8E6A7C0AA9C7E5F65F10C9C69 L_84;
-		L_84 = StyleEnum_1_op_Implicit_mE2664CDFC678F602380EED12BA228071E6F49030((int32_t)0, StyleEnum_1_op_Implicit_mE2664CDFC678F602380EED12BA228071E6F49030_RuntimeMethod_var);
-		bool L_85;
-		L_85 = StyleEnum_1_op_Equality_m0A305FB462EE2B52AD8BBC87CFCDAA27BA4B94CD(L_83, L_84, StyleEnum_1_op_Equality_m0A305FB462EE2B52AD8BBC87CFCDAA27BA4B94CD_RuntimeMethod_var);
-		V_24 = L_85;
-		bool L_86 = V_24;
-		if (!L_86)
+		L_80 = VisualElement_get_style_mDCFF8D835BE0AFE412905E108F48B32A83734224(L_79, NULL);
+		StyleEnum_1_t3B02FFF55849C9C8E6A7C0AA9C7E5F65F10C9C69 L_81;
+		L_81 = InterfaceFuncInvoker0< StyleEnum_1_t3B02FFF55849C9C8E6A7C0AA9C7E5F65F10C9C69 >::Invoke(17, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_80);
+		StyleEnum_1_t3B02FFF55849C9C8E6A7C0AA9C7E5F65F10C9C69 L_82;
+		L_82 = StyleEnum_1_op_Implicit_mE2664CDFC678F602380EED12BA228071E6F49030((int32_t)0, StyleEnum_1_op_Implicit_mE2664CDFC678F602380EED12BA228071E6F49030_RuntimeMethod_var);
+		bool L_83;
+		L_83 = StyleEnum_1_op_Equality_m0A305FB462EE2B52AD8BBC87CFCDAA27BA4B94CD(L_81, L_82, StyleEnum_1_op_Equality_m0A305FB462EE2B52AD8BBC87CFCDAA27BA4B94CD_RuntimeMethod_var);
+		V_24 = L_83;
+		bool L_84 = V_24;
+		if (!L_84)
 		{
-			goto IL_02f4;
+			goto IL_02e4;
 		}
 	}
 	{
-		float L_87 = V_15;
-		float L_88 = V_22;
-		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_89;
-		L_89 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_90 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_89->___scrollOffset);
-		float L_91 = L_90->___y;
-		V_25 = (bool)((((float)((float)il2cpp_codegen_add(L_87, L_88))) < ((float)L_91))? 1 : 0);
-		bool L_92 = V_25;
-		if (!L_92)
+		float L_85 = V_15;
+		float L_86 = V_22;
+		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_87;
+		L_87 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_88 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_87->___scrollOffset);
+		float L_89 = L_88->___y;
+		V_25 = (bool)((((int32_t)((!(((float)((float)il2cpp_codegen_add(L_85, L_86))) <= ((float)L_89)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_90 = V_25;
+		if (!L_90)
 		{
-			goto IL_02d8;
+			goto IL_02c8;
 		}
 	}
 	{
-		RuntimeObject* L_93 = V_20;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_94;
-		L_94 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_93);
-		VisualElement_BringToFront_m9E1C19327401C3AC5A62EC6432E0DAC4457BC59E(L_94, NULL);
-		int32_t L_95 = V_19;
-		DynamicHeightVirtualizationController_1_HideItem_m215013657E2656C87238A09622ACBC021A0CCA6D(__this, L_95, il2cpp_rgctx_method(method->klass->rgctx_data, 28));
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_96 = V_17;
-		RuntimeObject* L_97 = V_20;
-		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_96, L_97, il2cpp_rgctx_method(method->klass->rgctx_data, 43));
-		int32_t L_98 = V_18;
-		V_18 = ((int32_t)il2cpp_codegen_add(L_98, 1));
-		int32_t L_99;
-		L_99 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		V_26 = L_99;
-		int32_t L_100 = V_26;
-		VirtualActionInvoker1< int32_t >::Invoke(5, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, ((int32_t)il2cpp_codegen_add(L_100, 1)));
-		goto IL_02f3;
+		RuntimeObject* L_91 = V_20;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_92;
+		L_92 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_91);
+		VisualElement_BringToFront_m9E1C19327401C3AC5A62EC6432E0DAC4457BC59E(L_92, NULL);
+		int32_t L_93 = V_19;
+		DynamicHeightVirtualizationController_1_HideItem_m215013657E2656C87238A09622ACBC021A0CCA6D(__this, L_93, il2cpp_rgctx_method(method->klass->rgctx_data, 28));
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_94 = V_17;
+		RuntimeObject* L_95 = V_20;
+		List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_inline(L_94, L_95, il2cpp_rgctx_method(method->klass->rgctx_data, 43));
+		int32_t L_96 = V_18;
+		V_18 = ((int32_t)il2cpp_codegen_add(L_96, 1));
+		int32_t L_97;
+		L_97 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		V_26 = L_97;
+		int32_t L_98 = V_26;
+		VirtualActionInvoker1< int32_t >::Invoke(5, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, ((int32_t)il2cpp_codegen_add(L_98, 1)));
+		goto IL_02e3;
 	}
 
-IL_02d8:
+IL_02c8:
 	{
-		float L_101 = V_15;
-		float L_102;
-		L_102 = DynamicHeightVirtualizationController_1_get_viewportMaxOffset_mD0104D769615CF0A2DF0CAA00DA156A8BF0F9393(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 46));
-		V_27 = (bool)((((float)L_101) > ((float)L_102))? 1 : 0);
-		bool L_103 = V_27;
-		if (!L_103)
+		float L_99 = V_15;
+		float L_100;
+		L_100 = DynamicHeightVirtualizationController_1_get_viewportMaxOffset_mD0104D769615CF0A2DF0CAA00DA156A8BF0F9393(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 46));
+		V_27 = (bool)((((float)L_99) > ((float)L_100))? 1 : 0);
+		bool L_101 = V_27;
+		if (!L_101)
 		{
-			goto IL_02f3;
+			goto IL_02e3;
 		}
 	}
 	{
-		int32_t L_104 = V_19;
-		DynamicHeightVirtualizationController_1_HideItem_m215013657E2656C87238A09622ACBC021A0CCA6D(__this, L_104, il2cpp_rgctx_method(method->klass->rgctx_data, 28));
+		int32_t L_102 = V_19;
+		DynamicHeightVirtualizationController_1_HideItem_m215013657E2656C87238A09622ACBC021A0CCA6D(__this, L_102, il2cpp_rgctx_method(method->klass->rgctx_data, 28));
 	}
 
-IL_02f3:
+IL_02e3:
 	{
 	}
 
-IL_02f4:
+IL_02e4:
 	{
-		float L_105 = V_15;
-		int32_t L_106 = V_21;
-		float L_107;
-		L_107 = VirtualFuncInvoker1< float, int32_t >::Invoke(12, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, L_106);
-		V_15 = ((float)il2cpp_codegen_add(L_105, L_107));
-		int32_t L_108 = V_19;
-		V_19 = ((int32_t)il2cpp_codegen_add(L_108, 1));
+		float L_103 = V_15;
+		int32_t L_104 = V_21;
+		float L_105;
+		L_105 = VirtualFuncInvoker1< float, int32_t >::Invoke(12, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, L_104);
+		V_15 = ((float)il2cpp_codegen_add(L_103, L_105));
+		int32_t L_106 = V_19;
+		V_19 = ((int32_t)il2cpp_codegen_add(L_106, 1));
 	}
 
-IL_0308:
+IL_02f8:
 	{
-		int32_t L_109 = V_19;
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_110 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
-		int32_t L_111;
-		L_111 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_110, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
-		V_28 = (bool)((((int32_t)L_109) < ((int32_t)L_111))? 1 : 0);
-		bool L_112 = V_28;
-		if (L_112)
+		int32_t L_107 = V_19;
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_108 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
+		int32_t L_109;
+		L_109 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_108, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		V_28 = (bool)((((int32_t)L_107) < ((int32_t)L_109))? 1 : 0);
+		bool L_110 = V_28;
+		if (L_110)
 		{
-			goto IL_020e;
+			goto IL_01fb;
 		}
 	}
 
-IL_0320:
+IL_0310:
 	{
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_111 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
+		int32_t L_112 = V_18;
+		List_1_RemoveRange_m0D2A25C95EFDC6E9CD22B663D9633426B51E3699(L_111, 0, L_112, il2cpp_rgctx_method(method->klass->rgctx_data, 44));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_113 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
-		int32_t L_114 = V_18;
-		List_1_RemoveRange_m0D2A25C95EFDC6E9CD22B663D9633426B51E3699(L_113, 0, L_114, il2cpp_rgctx_method(method->klass->rgctx_data, 44));
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_115 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_116 = V_17;
-		List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17(L_115, (RuntimeObject*)L_116, il2cpp_rgctx_method(method->klass->rgctx_data, 45));
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_117 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ScrollInsertionList;
-		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_117, il2cpp_rgctx_method(method->klass->rgctx_data, 42));
-		int32_t L_118;
-		L_118 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		int32_t L_119 = V_16;
-		V_29 = (bool)((((int32_t)((((int32_t)L_118) == ((int32_t)L_119))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_120 = V_29;
-		if (!L_120)
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_114 = V_17;
+		List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17(L_113, (RuntimeObject*)L_114, il2cpp_rgctx_method(method->klass->rgctx_data, 45));
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_115 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ScrollInsertionList;
+		List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_inline(L_115, il2cpp_rgctx_method(method->klass->rgctx_data, 42));
+		int32_t L_116;
+		L_116 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		int32_t L_117 = V_16;
+		V_29 = (bool)((((int32_t)((((int32_t)L_116) == ((int32_t)L_117))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_118 = V_29;
+		if (!L_118)
 		{
-			goto IL_037a;
+			goto IL_036a;
 		}
 	}
 	{
-		int32_t L_121;
-		L_121 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		float L_122;
-		L_122 = DynamicHeightVirtualizationController_1_GetContentHeightForIndex_m67ADABB540A2E4E3B9E43C661F8550235697349F(__this, ((int32_t)il2cpp_codegen_subtract(L_121, 1)), il2cpp_rgctx_method(method->klass->rgctx_data, 22));
-		DynamicHeightVirtualizationController_1_set_contentPadding_mB8D6D04678832757756BEAAFCED48D8527D3534F(__this, L_122, il2cpp_rgctx_method(method->klass->rgctx_data, 34));
+		int32_t L_119;
+		L_119 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		float L_120;
+		L_120 = DynamicHeightVirtualizationController_1_GetContentHeightForIndex_m67ADABB540A2E4E3B9E43C661F8550235697349F(__this, ((int32_t)il2cpp_codegen_subtract(L_119, 1)), il2cpp_rgctx_method(method->klass->rgctx_data, 22));
+		DynamicHeightVirtualizationController_1_set_contentPadding_mB8D6D04678832757756BEAAFCED48D8527D3534F(__this, L_120, il2cpp_rgctx_method(method->klass->rgctx_data, 34));
 		DynamicHeightVirtualizationController_1_UpdateAnchor_mF480504C12625CB0847143D2F4C370798BCB494D(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 47));
 	}
 
-IL_037a:
+IL_036a:
 	{
 		DynamicHeightVirtualizationController_1_ScheduleScrollDirectionReset_m8A2B0CE22017CC2042782C22DCA69A12A68CB688(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_123 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_CollectionView;
-		VisualElement_SaveViewData_m6F18758E27148CBC3B9E4FCB1F33798AAB427CD6((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_123, NULL);
+		__this->___m_ForcedLastVisibleItem = (-1);
+		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_121 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_CollectionView;
+		VisualElement_SaveViewData_m6F18758E27148CBC3B9E4FCB1F33798AAB427CD6((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_121, NULL);
 	}
 
-IL_038e:
+IL_0385:
 	{
 		return;
 	}
@@ -20760,7 +20750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicHeightVirtualizationController_1_
 		}
 	}
 	{
-		goto IL_0055;
+		goto IL_004f;
 	}
 
 IL_0012:
@@ -20774,17 +20764,16 @@ IL_0012:
 		RuntimeObject* L_7 = ___0_item;
 		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_8;
 		L_8 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_7);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* L_9 = (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*)(&L_8->___lastLayout);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
-		L_10 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
-		Rect_set_size_m346E4F7077E5A1C0F4E21966232CD726CB9E6BAA_inline(L_9, L_10, NULL);
-		RuntimeObject* L_11 = ___0_item;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_12;
-		L_12 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_11);
-		VisualElement_MarkDirtyRepaint_mB708A0EAFDE7A535A3E4131FF99F6ED6C61490B6(L_12, NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9;
+		L_9 = Rect_get_zero_m5341D8B63DEF1F4C308A685EEC8CFEA12A396C8D(NULL);
+		L_8->___lastLayout = L_9;
+		RuntimeObject* L_10 = ___0_item;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_11;
+		L_11 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086*)L_10);
+		VisualElement_MarkDirtyRepaint_mB708A0EAFDE7A535A3E4131FF99F6ED6C61490B6(L_11, NULL);
 	}
 
-IL_0055:
+IL_004f:
 	{
 		return;
 	}
@@ -36170,56 +36159,6 @@ IL_000a:
 		return L_2;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
-{
-	bool V_0 = false;
-	bool V_1 = false;
-	float V_2 = 0.0f;
-	{
-		float L_0 = ___0_value;
-		float L_1 = ___1_min;
-		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		float L_3 = ___1_min;
-		___0_value = L_3;
-		goto IL_0019;
-	}
-
-IL_000e:
-	{
-		float L_4 = ___0_value;
-		float L_5 = ___2_max;
-		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
-		bool L_6 = V_1;
-		if (!L_6)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		float L_7 = ___2_max;
-		___0_value = L_7;
-	}
-
-IL_0019:
-	{
-		float L_8 = ___0_value;
-		V_2 = L_8;
-		goto IL_001d;
-	}
-
-IL_001d:
-	{
-		float L_9 = V_2;
-		return L_9;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ReusableCollectionItem_get_isDragGhost_m3D932E557A3B750E12C3D6406B0DB52C6D63513F_inline (ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086* __this, const RuntimeMethod* method) 
 {
 	{
@@ -36280,40 +36219,6 @@ IL_0035:
 	{
 		bool L_10 = V_0;
 		return L_10;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
-		V_0 = L_0;
-		goto IL_0009;
-	}
-
-IL_0009:
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
-		return L_1;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect_set_size_m346E4F7077E5A1C0F4E21966232CD726CB9E6BAA_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
-{
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_value;
-		float L_1 = L_0.___x;
-		__this->___m_Width = L_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_value;
-		float L_3 = L_2.___y;
-		__this->___m_Height = L_3;
-		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR EqualityComparer_1_tD07CBC58F821582B79CB59B10264DC683DE3EE5C* EqualityComparer_1_get_Default_mA1371F43F9121608E1B210C692D2B369D8A50A37_gshared_inline (const RuntimeMethod* method) 

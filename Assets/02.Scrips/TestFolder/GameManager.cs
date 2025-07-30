@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,25 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public int life = 3;
     private bool isGameOver = false;
-
+    public int day = 1;
+    public int dayCount = 0;
+    public int DayCount
+    {
+        get
+        {
+            return dayCount;
+        }
+        set
+        {
+            dayCount = value;
+            if(dayCount%10 == 0)
+            {
+                day++;
+                Debug.Log($"{day} ÀÏÂ÷");
+                dayCount = 0;
+            }
+        }
+    }
     public bool IsGameOver {
         get
         {

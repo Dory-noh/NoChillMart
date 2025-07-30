@@ -758,7 +758,6 @@ struct Action_1_t23F178E7964B2C61AD65B85606E089518F02847E;
 struct Action_1_t11A999D1E88B2CD1C76435A0A0BB019F170AA50B;
 struct Action_1_t6F4B3F39D29A95CDB908D37EA9D2F92067903BE3;
 struct Action_1_t05D5BBD7271160401C68E8BE6D7B161A9E614BFE;
-struct Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930;
 struct Action_1_tBF3758489166E22D0E6CA6E6CC9D9BCA81E03AE2;
 struct Action_1_t72E548755F4BB43C31EDE2E7DAC9E4AEA03432B0;
 struct Action_1_t4501483487EE874F237B6B25ACC1026A64FBF612;
@@ -5237,7 +5236,6 @@ struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	int32_t ___m_Value;
 	Func_2_t2FDA873D8482C79555CFB05233D610E8F1C7C354* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5256,7 +5254,6 @@ struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	RuntimeObject* ___m_Value;
 	Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5275,7 +5272,6 @@ struct BaseField_1_t20F941B6C24CA56850F3E1E4DAE464ED52B22A9B  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___m_Value;
 	Func_2_tB7886AF500F23F9AE78D86E5EBADFE0BBD37A1DA* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5294,7 +5290,6 @@ struct BaseField_1_t9D3CB6D9190E9D20C857B1EE2F77C70A5B787F56  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___m_Value;
 	Func_2_t44F0BC956892FDA3EB80198FA179AD4CE456E0AA* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5313,7 +5308,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	float ___m_Value;
 	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5332,7 +5326,6 @@ struct BaseField_1_t24288AF0F89D70409E802DB92E87D9CA0A822507  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Value;
 	Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5351,7 +5344,6 @@ struct BaseField_1_t164143DEC5495C0F3F0084C33008E9F8A40FA886  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___m_Value;
 	Func_2_t4F7E38E7BB35050CFC131CE0DA82E7D1E681BE1E* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5370,7 +5362,6 @@ struct BaseField_1_tB78B850472E8D80C410522B83653501AA27A339B  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Value;
 	Func_2_t5FAD225BE5BF75673982C9FE55604AC36DBC1DB4* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5389,7 +5380,6 @@ struct BaseField_1_t441D885526846ED28BBAD84B777040279E7CD75C  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___m_Value;
 	Func_2_tC506A7A7A720786F7480B1EA49A031D24F0ECFCA* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5408,7 +5398,6 @@ struct BaseField_1_tA1F41315EF3CC62659FC6306606C7CCA98D85C9F  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_Value;
 	Func_2_t45386234ABB726FFBC7310E0192AE01A58728C52* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -5529,14 +5518,12 @@ struct TextInputBaseField_1_t22B13113CAA1983EB68A9C82AA257206C5729320  : public 
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t4E2B3844AC78898554B9676B3ADBDEA4417AB531* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_tC693C9223BC3F56D9387F26A86CAB402209921C2  : public BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t1C4ADC0DE8BF430AA17D822D068E2204405C139A* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_tC43B489775F59FC88CE58986CF0DAD316DDD211E : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C {};
@@ -5551,11 +5538,13 @@ struct PopupField_1_tB68FAAF324D51F44120999EE041CD2C52F301149 : public BindableE
 struct TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E  : public TextInputBaseField_1_t22B13113CAA1983EB68A9C82AA257206C5729320
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B  : public TextInputBaseField_1_tC693C9223BC3F56D9387F26A86CAB402209921C2
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_t3EE616C25ADA83566B7F1ED740D48CEA7F083127 : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C {};
@@ -11141,7 +11130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -11272,7 +11261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -11403,7 +11392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -11534,7 +11523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -11665,7 +11654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -11796,7 +11785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -11927,7 +11916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_15 = __this->___field;
 		String_t* L_16 = V_2;
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B*)L_15, L_16);
 		G_B3_0 = ((int32_t)(L_17));
 		goto IL_006e;
 	}
@@ -12071,7 +12060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass24_0_U3C_ctorU3Eb__
 		RuntimeObject* L_16 = __this->___field;
 		String_t* L_17 = V_2;
 		bool L_18;
-		L_18 = VirtualFuncInvoker1< bool, String_t* >::Invoke(129, (TextValueField_1_t3EE616C25ADA83566B7F1ED740D48CEA7F083127*)L_16, L_17);
+		L_18 = VirtualFuncInvoker1< bool, String_t* >::Invoke(128, (TextValueField_1_t3EE616C25ADA83566B7F1ED740D48CEA7F083127*)L_16, L_17);
 		G_B3_0 = ((int32_t)(L_18));
 		goto IL_006e;
 	}

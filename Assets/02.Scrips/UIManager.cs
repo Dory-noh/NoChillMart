@@ -30,8 +30,8 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        ToggleUI(3);
-        StartCoroutine(ShowStory());
+        //ToggleUI(3);
+        //StartCoroutine(ShowStory());
     }
 
     public void ResetConversation()

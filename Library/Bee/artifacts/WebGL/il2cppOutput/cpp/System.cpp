@@ -9473,7 +9473,7 @@ IL_003b:
 		uint64_t* L_17 = ___1_flags;
 		int64_t L_18 = *((int64_t*)L_17);
 		uint16_t L_19 = V_4;
-		*((int64_t*)L_16) = (int64_t)((int64_t)(L_18|((int64_t)(uint64_t)((uint32_t)L_19))));
+		*((int64_t*)L_16) = (int64_t)((int64_t)(L_18|((int64_t)(uint64_t)L_19)));
 		V_2 = (String_t*)NULL;
 		return (int32_t)(0);
 	}
@@ -10152,7 +10152,7 @@ IL_035f:
 	{
 		uint64_t L_132 = __this->___m_Flags;
 		uint16_t L_133 = V_0;
-		__this->___m_Flags = ((int64_t)((int64_t)L_132|((int64_t)(((int64_t)(uint64_t)((uint32_t)L_133))|((int64_t)((int32_t)458752))))));
+		__this->___m_Flags = ((int64_t)((int64_t)L_132|((int64_t)(((int64_t)(uint64_t)L_133)|((int64_t)((int32_t)458752))))));
 		return (int32_t)(0);
 	}
 
@@ -10183,7 +10183,7 @@ IL_0399:
 	{
 		uint64_t L_138 = __this->___m_Flags;
 		uint16_t L_139 = V_0;
-		__this->___m_Flags = ((int64_t)((int64_t)L_138|((int64_t)(((int64_t)(uint64_t)((uint32_t)L_139))|((int64_t)((int32_t)458752))))));
+		__this->___m_Flags = ((int64_t)((int64_t)L_138|((int64_t)(((int64_t)(uint64_t)L_139)|((int64_t)((int32_t)458752))))));
 		return (int32_t)(0);
 	}
 
@@ -10227,7 +10227,7 @@ IL_03f5:
 		G_B80_2->___m_Flags = ((int64_t)((int64_t)G_B80_1|G_B80_0));
 		uint64_t L_143 = __this->___m_Flags;
 		uint16_t L_144 = V_0;
-		__this->___m_Flags = ((int64_t)((int64_t)L_143|((int64_t)(uint64_t)((uint32_t)L_144))));
+		__this->___m_Flags = ((int64_t)((int64_t)L_143|((int64_t)(uint64_t)L_144)));
 		return (int32_t)(0);
 	}
 
@@ -10296,7 +10296,7 @@ IL_0462:
 	{
 		uint64_t L_161 = __this->___m_Flags;
 		uint16_t L_162 = V_0;
-		__this->___m_Flags = ((int64_t)((int64_t)L_161|((int64_t)(uint64_t)((uint32_t)L_162))));
+		__this->___m_Flags = ((int64_t)((int64_t)L_161|((int64_t)(uint64_t)L_162)));
 		V_4 = (String_t*)NULL;
 		il2cpp_codegen_runtime_class_init_inline(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
 		int32_t L_163 = ((Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields*)il2cpp_codegen_static_fields_for(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var))->___s_IdnScope;

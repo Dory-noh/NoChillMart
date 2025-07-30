@@ -62,8 +62,6 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0052C2B75AF160293B7E2B988F2F9D83DCD1D4D6;
 IL2CPP_EXTERN_C String_t* _stringLiteral7EE2EC0E141890ED13D1EEC3562248EA95485987;
 IL2CPP_EXTERN_C String_t* _stringLiteralC26096054589E56273AC485218FA5B65675C933E;
@@ -71,8 +69,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEEEF4964BE1943E118BB297F57BDB9955C6DA372
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m220A7CFB07F883D427D782347E3CF8B68F1AFE03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA625F85B21CB389422393F709122327ED0BF7CA9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mD013968D6DAB756EA34E138E00BEF8922909C1BE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3;;
@@ -736,8 +732,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_get_zero_m3D61F5FA9483CD9C08977D9D8852FB448B4CE6D1_inline (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m2149FA40CEC8D82AC20D3508AB40C0D8EFEF68E6 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_self, String_t* ___1_name, const RuntimeMethod* method) ;
 inline void Action_1_Invoke_mF7CAC85021DFCE6516FAD20C0421A1AF389A3D3E_inline (Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC* __this, Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_obj, const RuntimeMethod* method)
 {
 	((  void (*) (Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC*, Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
@@ -776,26 +770,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76
 #endif
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_pinvoke(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_pinvoke_back(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_pinvoke& marshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_pinvoke_cleanup(TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_pinvoke& marshaled)
@@ -803,26 +783,12 @@ IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_com(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_com_back(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_com& marshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+	Exception_t* ___fontException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_com_cleanup(TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_com& marshaled)
@@ -1171,26 +1137,12 @@ IL2CPP_EXTERN_C  bool TextGenerationSettings_Equals_m04DE9655555622E3A4EECC2EAB3
 
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_pinvoke(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettingsException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_pinvoke_back(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_pinvoke& marshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettingsException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_pinvoke_cleanup(TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_pinvoke& marshaled)
@@ -1200,26 +1152,12 @@ IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_mar
 
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_com(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettingsException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_com_back(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_com& marshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+	Exception_t* ___m_LastSettingsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettingsException, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_com_cleanup(TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_com& marshaled)
@@ -2358,21 +2296,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Font_get_fontSize_m02C2F5C7A7C89A878F
 	int32_t icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font__ctor_m9106C7F312AE77F6721001A5A3143951201AC841 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object__ctor_m2149FA40CEC8D82AC20D3508AB40C0D8EFEF68E6(__this, NULL);
-		Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1(__this, (String_t*)NULL, NULL);
-		return;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_InvokeTextureRebuilt_Internal_m874D1025267C908E5FCD437B41929E4DE248B01B (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_font, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2456,14 +2379,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_HasCharacter_mAB838A26F002CB5E4B4DB
 	_il2cpp_icall_func = (Font_HasCharacter_mAB838A26F002CB5E4B4DB297F7D6836A28625B18_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::HasCharacter(System.Int32)");
 	bool icallRetVal = _il2cpp_icall_func(__this, ___0_c);
 	return icallRetVal;
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* ___0_self, String_t* ___1_name, const RuntimeMethod* method) 
-{
-	typedef void (*Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1_ftn) (Font_tC95270EA3198038970422D78B74A7F2E218A96B6*, String_t*);
-	static Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Font_Internal_CreateFont_m97CB036BAA033DDAD87E14F9D3493A3A2D9C72B1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String)");
-	_il2cpp_icall_func(___0_self, ___1_name);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

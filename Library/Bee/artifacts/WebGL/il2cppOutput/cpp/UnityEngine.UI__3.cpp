@@ -485,10 +485,6 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WheelEvent_tDD5DB3A6F5F6FDB59AD7FF27491502FF18B9775E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral06A17D93E6D67BEA37EBBF3A9D7FC06B40689CD1;
 IL2CPP_EXTERN_C String_t* _stringLiteral0F310FF3EBC19D65A536D81F5D8C7093E972DCA0;
 IL2CPP_EXTERN_C String_t* _stringLiteral12BA26D2F44E032136B3146CB230F4F45C5D45DE;
@@ -692,12 +688,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_mD1175E822AFF26E9A43F2FB
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1__ctor_mDED1CDCE6C1912DC328CA1D07ACA3ABB9AF1303D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ValueCollection_GetEnumerator_m0124B7611A2B03F480EB52872F7A1B24F0CA6EDC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* PanelEventHandler_t7DF19E1B93AD4FE82833AD0801732CB7DD8CAA09_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* PanelRaycaster_tE0F63DEFDFD3D98239ADCA9A093DE89623BF6F7D_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_pinvoke;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
@@ -4500,7 +4492,7 @@ inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Component_GetComponent_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Camera_get_cullingMask_m6F5AFF8FB522F876D99E839BF77D8F27F26A1EF8 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayerMask_op_Implicit_m7F5A5B9D079281AC445ED39DEE1FCFA9D795810D (LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___0_mask, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MultipleDisplayUtilities_RelativeMouseAtScaled_m80E65BE9255F7D65D9341FDFDB0CA11470703E71 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, int32_t ___1_displayIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 MultipleDisplayUtilities_RelativeMouseAtScaled_mE3B0EE3E697B4316CE8588D05F3A75E47A75A855 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Camera_get_targetDisplay_m204A169C94EEABDB491FA5A77CC684146B10DF80 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
@@ -5025,26 +5017,12 @@ IL_0009:
 #endif
 IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshal_pinvoke(const ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7& unmarshaled, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'ColorTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshal_pinvoke_back(const ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshaled_pinvoke& marshaled, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'ColorTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshal_pinvoke_cleanup(ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshaled_pinvoke& marshaled)
@@ -5052,26 +5030,12 @@ IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marsha
 }
 IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshal_com(const ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7& unmarshaled, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'ColorTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshal_com_back(const ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshaled_com& marshaled, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7____m_Target_FieldInfo_var, ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'ColorTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshal_com_cleanup(ColorTween_t15AEF379B51AC7DF9B23C440A938DCF32DA3FBB7_marshaled_com& marshaled)
@@ -5435,26 +5399,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorTweenCallback__ctor_mFEB49A6A1ABACF
 #endif
 IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshal_pinvoke(const FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A& unmarshaled, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'FloatTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshal_pinvoke_back(const FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_pinvoke& marshaled, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'FloatTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshal_pinvoke_cleanup(FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_pinvoke& marshaled)
@@ -5462,26 +5412,12 @@ IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marsha
 }
 IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshal_com(const FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A& unmarshaled, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'FloatTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshal_com_back(const FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_com& marshaled, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A____m_Target_FieldInfo_var, FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_0_0_0_var);
+	Exception_t* ___m_TargetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Target' of type 'FloatTween': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_TargetException, NULL);
 }
 IL2CPP_EXTERN_C void FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshal_com_cleanup(FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_com& marshaled)
@@ -12068,26 +12004,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystem__cctor_mE933C88969E443D3DEE1
 #endif
 IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshal_pinvoke(const UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182& unmarshaled, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
+	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'activeEventSystem' of type 'UIToolkitOverrideConfig': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___activeEventSystemException, NULL);
 }
 IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshal_pinvoke_back(const UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_pinvoke& marshaled, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
+	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'activeEventSystem' of type 'UIToolkitOverrideConfig': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___activeEventSystemException, NULL);
 }
 IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshal_pinvoke_cleanup(UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_pinvoke& marshaled)
@@ -12095,26 +12017,12 @@ IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200
 }
 IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshal_com(const UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182& unmarshaled, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
+	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'activeEventSystem' of type 'UIToolkitOverrideConfig': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___activeEventSystemException, NULL);
 }
 IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshal_com_back(const UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_com& marshaled, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182____activeEventSystem_FieldInfo_var, UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_0_0_0_var);
+	Exception_t* ___activeEventSystemException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'activeEventSystem' of type 'UIToolkitOverrideConfig': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___activeEventSystemException, NULL);
 }
 IL2CPP_EXTERN_C void UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshal_com_cleanup(UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_com& marshaled)
@@ -20037,120 +19945,117 @@ IL_0010:
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_2 = ___0_eventData;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
 		L_3 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_2, NULL);
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_4 = ___0_eventData;
-		int32_t L_5;
-		L_5 = PointerEventData_get_displayIndex_m8B2088561EA850F1CAD124797F0F6E3756F584FA_inline(L_4, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = MultipleDisplayUtilities_RelativeMouseAtScaled_mE3B0EE3E697B4316CE8588D05F3A75E47A75A855(L_3, NULL);
+		V_0 = L_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
-		L_6 = MultipleDisplayUtilities_RelativeMouseAtScaled_m80E65BE9255F7D65D9341FDFDB0CA11470703E71(L_3, L_5, NULL);
-		V_0 = L_6;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
-		L_8 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
-		bool L_9;
-		L_9 = Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline(L_7, L_8, NULL);
-		if (!L_9)
+		L_6 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		bool L_7;
+		L_7 = Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline(L_5, L_6, NULL);
+		if (!L_7)
 		{
-			goto IL_0049;
+			goto IL_0043;
 		}
 	}
 	{
-		int32_t* L_10 = ___2_eventDisplayIndex;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
-		float L_12 = L_11.___z;
-		*((int32_t*)L_10) = (int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_12);
-		int32_t* L_13 = ___2_eventDisplayIndex;
-		int32_t L_14 = *((int32_t*)L_13);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_15;
-		L_15 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
-		int32_t L_16;
-		L_16 = Camera_get_targetDisplay_m204A169C94EEABDB491FA5A77CC684146B10DF80(L_15, NULL);
-		if ((((int32_t)L_14) == ((int32_t)L_16)))
+		int32_t* L_8 = ___2_eventDisplayIndex;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		float L_10 = L_9.___z;
+		*((int32_t*)L_8) = (int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_10);
+		int32_t* L_11 = ___2_eventDisplayIndex;
+		int32_t L_12 = *((int32_t*)L_11);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_13;
+		L_13 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
+		int32_t L_14;
+		L_14 = Camera_get_targetDisplay_m204A169C94EEABDB491FA5A77CC684146B10DF80(L_13, NULL);
+		if ((((int32_t)L_12) == ((int32_t)L_14)))
 		{
-			goto IL_0055;
+			goto IL_004f;
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_0049:
+IL_0043:
 	{
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_17 = ___0_eventData;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
-		L_18 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_17, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
-		L_19 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_18, NULL);
-		V_0 = L_19;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_15 = ___0_eventData;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
+		L_16 = PointerEventData_get_position_m5BE71C28EB72EFB8435749E4E6E839213AEF458C_inline(L_15, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_16, NULL);
+		V_0 = L_17;
 	}
 
-IL_0055:
+IL_004f:
 	{
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_20;
-		L_20 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_21;
-		L_21 = Camera_get_pixelRect_m5F40F5C324EB252261F66962411EE08CC4BE39E7(L_20, NULL);
-		V_2 = L_21;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_0;
-		bool L_23;
-		L_23 = Rect_Contains_mB1160CD465F3E9616AA4EED72AFFD611BD8D2B6B_inline((&V_2), L_22, NULL);
-		if (L_23)
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_18;
+		L_18 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_19;
+		L_19 = Camera_get_pixelRect_m5F40F5C324EB252261F66962411EE08CC4BE39E7(L_18, NULL);
+		V_2 = L_19;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = V_0;
+		bool L_21;
+		L_21 = Rect_Contains_mB1160CD465F3E9616AA4EED72AFFD611BD8D2B6B_inline((&V_2), L_20, NULL);
+		if (L_21)
 		{
-			goto IL_006d;
+			goto IL_0067;
 		}
 	}
 	{
 		return (bool)0;
 	}
 
-IL_006d:
+IL_0067:
 	{
-		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* L_24 = ___1_ray;
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_25;
-		L_25 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26 = V_0;
-		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_27;
-		L_27 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_25, L_26, NULL);
-		*(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*)L_24 = L_27;
-		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* L_28 = ___1_ray;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
-		L_29 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline(L_28, NULL);
-		float L_30 = L_29.___z;
-		V_1 = L_30;
-		float* L_31 = ___3_distanceToClipPlane;
-		float L_32 = V_1;
-		bool L_33;
-		L_33 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline((0.0f), L_32, NULL);
-		if (L_33)
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* L_22 = ___1_ray;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_23;
+		L_23 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_0;
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_25;
+		L_25 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_23, L_24, NULL);
+		*(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00*)L_22 = L_25;
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* L_26 = ___1_ray;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Ray_get_direction_m21C2D22D3BD4A683BD4DC191AB22DD05F5EC2086_inline(L_26, NULL);
+		float L_28 = L_27.___z;
+		V_1 = L_28;
+		float* L_29 = ___3_distanceToClipPlane;
+		float L_30 = V_1;
+		bool L_31;
+		L_31 = Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline((0.0f), L_30, NULL);
+		if (L_31)
 		{
-			G_B10_0 = L_31;
-			goto IL_00ba;
+			G_B10_0 = L_29;
+			goto IL_00b4;
 		}
-		G_B9_0 = L_31;
+		G_B9_0 = L_29;
 	}
 	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_32;
+		L_32 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
+		float L_33;
+		L_33 = Camera_get_farClipPlane_m1D7128B85B5DB866F75FBE8CEBA48335716B67BD(L_32, NULL);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_34;
 		L_34 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
 		float L_35;
-		L_35 = Camera_get_farClipPlane_m1D7128B85B5DB866F75FBE8CEBA48335716B67BD(L_34, NULL);
-		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_36;
-		L_36 = VirtualFuncInvoker0< Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* >::Invoke(18, __this);
+		L_35 = Camera_get_nearClipPlane_m5E8FAF84326E3192CB036BD29DCCDAF6A9861013(L_34, NULL);
+		float L_36 = V_1;
 		float L_37;
-		L_37 = Camera_get_nearClipPlane_m5E8FAF84326E3192CB036BD29DCCDAF6A9861013(L_36, NULL);
-		float L_38 = V_1;
-		float L_39;
-		L_39 = fabsf(((float)(((float)il2cpp_codegen_subtract(L_35, L_37))/L_38)));
-		G_B11_0 = L_39;
+		L_37 = fabsf(((float)(((float)il2cpp_codegen_subtract(L_33, L_35))/L_36)));
+		G_B11_0 = L_37;
 		G_B11_1 = G_B9_0;
-		goto IL_00bf;
+		goto IL_00b9;
 	}
 
-IL_00ba:
+IL_00b4:
 	{
 		G_B11_0 = (std::numeric_limits<float>::infinity());
 		G_B11_1 = G_B10_0;
 	}
 
-IL_00bf:
+IL_00b9:
 	{
 		*((float*)G_B11_1) = (float)G_B11_0;
 		return (bool)1;
@@ -20431,26 +20336,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RaycastHitComparer__cctor_m772D29066D594
 #endif
 IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshal_pinvoke(const RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023& unmarshaled, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
+	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_GameObject' of type 'RaycastResult': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_GameObjectException, NULL);
 }
 IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshal_pinvoke_back(const RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke& marshaled, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
+	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_GameObject' of type 'RaycastResult': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_GameObjectException, NULL);
 }
 IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshal_pinvoke_cleanup(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke& marshaled)
@@ -20458,26 +20349,12 @@ IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_mar
 }
 IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshal_com(const RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023& unmarshaled, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
+	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_GameObject' of type 'RaycastResult': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_GameObjectException, NULL);
 }
 IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshal_com_back(const RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com& marshaled, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023____m_GameObject_FieldInfo_var, RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_0_0_0_var);
+	Exception_t* ___m_GameObjectException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_GameObject' of type 'RaycastResult': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_GameObjectException, NULL);
 }
 IL2CPP_EXTERN_C void RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshal_com_cleanup(RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com& marshaled)

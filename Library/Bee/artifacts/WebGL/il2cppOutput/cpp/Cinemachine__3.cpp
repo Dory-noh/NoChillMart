@@ -241,8 +241,6 @@ IL2CPP_EXTERN_C RuntimeClass* TargetPositionCache_t8232F376771398F9FE91D8BE9D70F
 IL2CPP_EXTERN_C RuntimeClass* TriggerEvent_tF086E247213217E7EC7747D2B18A13FE8DBB48F3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral446CC2C63B5C7037C31B6CC2F9F1E1DFB056EB9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral663C41C05AB8CEC11013C2708A41A43B20004AB6;
 IL2CPP_EXTERN_C String_t* _stringLiteral72179229E8E5413D5F2214BA1ECFBD62088DE1CE;
@@ -335,8 +333,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m19B8672E6D300924B0340B512E
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m71F5F51057EA215E366D07697A324759482B9112_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_mF38E835D3756F0321C5A8AD45CA73048C6AB041E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_mFA5226F74443EE02E8C6DD5DE8938A67CB884F57_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* ImpulseShapes_tC6D5F93BC2927249B4B12F5A3FA6E7032971AED7_0_0_0_var;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com;
@@ -2899,26 +2895,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CinemachineTriggerAction__ctor_m750E55C6
 
 IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshal_pinvoke(const ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9& unmarshaled, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
+	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Event' of type 'ActionSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_EventException, NULL);
 }
 IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshal_pinvoke_back(const ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshaled_pinvoke& marshaled, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
+	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Event' of type 'ActionSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_EventException, NULL);
 }
 IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshal_pinvoke_cleanup(ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshaled_pinvoke& marshaled)
@@ -2928,26 +2910,12 @@ IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_ma
 
 IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshal_com(const ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9& unmarshaled, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
+	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Event' of type 'ActionSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_EventException, NULL);
 }
 IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshal_com_back(const ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshaled_com& marshaled, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9____m_Event_FieldInfo_var, ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_0_0_0_var);
+	Exception_t* ___m_EventException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Event' of type 'ActionSettings': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_EventException, NULL);
 }
 IL2CPP_EXTERN_C void ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshal_com_cleanup(ActionSettings_tC5652FE91FF07C151CB21E5829AE9153508EAFA9_marshaled_com& marshaled)
@@ -5485,26 +5453,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CinemachineImpulseListener__ctor_m0C42D6
 #endif
 IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshal_pinvoke(const ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E& unmarshaled, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
+	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SecondaryNoise' of type 'ImpulseReaction': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SecondaryNoiseException, NULL);
 }
 IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshal_pinvoke_back(const ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshaled_pinvoke& marshaled, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
+	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SecondaryNoise' of type 'ImpulseReaction': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SecondaryNoiseException, NULL);
 }
 IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshal_pinvoke_cleanup(ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshaled_pinvoke& marshaled)
@@ -5512,26 +5466,12 @@ IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_m
 }
 IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshal_com(const ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E& unmarshaled, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
+	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SecondaryNoise' of type 'ImpulseReaction': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SecondaryNoiseException, NULL);
 }
 IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshal_com_back(const ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshaled_com& marshaled, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E____m_SecondaryNoise_FieldInfo_var, ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_0_0_0_var);
+	Exception_t* ___m_SecondaryNoiseException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SecondaryNoise' of type 'ImpulseReaction': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SecondaryNoiseException, NULL);
 }
 IL2CPP_EXTERN_C void ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshal_com_cleanup(ImpulseReaction_t2D8610BADC4C769F3E5E84D416DED789249A8A8E_marshaled_com& marshaled)
@@ -8207,7 +8147,7 @@ IL_0017:
 		uint64_t L_8 = L_7.___lo;
 		Int128_t461ED19C0DC62364E3905CBC13C950DB9F22D491 L_9;
 		memset((&L_9), 0, sizeof(L_9));
-		Int128__ctor_m8C6D7B59F2A217F10B2117D900C9890B7BA677B5((&L_9), ((~L_6)), ((int64_t)il2cpp_codegen_add(((~((int64_t)L_8))), ((int64_t)1))), NULL);
+		Int128__ctor_m8C6D7B59F2A217F10B2117D900C9890B7BA677B5((&L_9), ((~L_6)), ((int64_t)il2cpp_codegen_add((int64_t)((~L_8)), ((int64_t)1))), NULL);
 		return L_9;
 	}
 }
@@ -8241,7 +8181,7 @@ IL_0024:
 		uint64_t L_7 = L_6.___lo;
 		Int128_t461ED19C0DC62364E3905CBC13C950DB9F22D491 L_8 = ___0_val;
 		int64_t L_9 = L_8.___hi;
-		return ((-((double)((double)il2cpp_codegen_add(((double)((double)(uint64_t)((~((int64_t)L_7))))), ((double)il2cpp_codegen_multiply(((double)((~L_9))), (1.8446744073709552E+19))))))));
+		return ((-((double)((double)il2cpp_codegen_add(((double)((double)(uint64_t)((~L_7)))), ((double)il2cpp_codegen_multiply(((double)((~L_9))), (1.8446744073709552E+19))))))));
 	}
 
 IL_0043:

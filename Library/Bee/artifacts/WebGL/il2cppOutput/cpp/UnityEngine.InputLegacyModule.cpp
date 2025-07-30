@@ -38,7 +38,6 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* SendMouseEvents_t30F6848ABBD277C51340A02CF6664B8D6183EC39_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TouchU5BU5D_t242545870BFCA81F368CCF82E00F9E2A7FB523B3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B3DC20068778C16024297CC44E2C2A73D5B296D;
 IL2CPP_EXTERN_C String_t* _stringLiteral3C6F094A63750A8BD369D8A9138F0648FB74B3C4;
 IL2CPP_EXTERN_C String_t* _stringLiteralA2CF8B549405D8D0F26F85E3A40C8B2ABAD0A6AC;
@@ -48,7 +47,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE0C5D7D5DD5695D97E4EDCB4705E9F1AF10AF695
 IL2CPP_EXTERN_C String_t* _stringLiteralE69C6A3A0BD2A9030375061C78273B2EABD411D0;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m276DF1835C1D690AEE5DE26E790EDAE0A0950B91_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_mCB133C85E3AF38797FF1DCDE7EC47CC379FF2CB0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -581,6 +579,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputUnsafeUtility_GetAxisRaw_m0EBF7520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputUnsafeUtility_GetButtonDown_mB35B46B92DA28196820B996E2420E5E320088EE4 (String_t* ___0_buttonName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m04E25DD035583531339AB310FBDD4F5A30817F87 (int32_t ___0_index, Touch_t03E51455ED508492B3F278903A0114FA0E87B417* ___1_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetLastPenContactEvent_Injected_mA7F2DE408F86C38FC15357E468645CD82D38A84A (PenData_t2345B5FBD18D851528C5C18F8A667D4EF4690945* ___0_ret, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_m2FFCC49AF36B74247CC1B412E9787A15D0984E95 (int32_t ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUpInt_mB26B433DD3A21ACAF04D23252B09068EFFEDA0F9 (int32_t ___0_key, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m0B655F969FCBC011BC2616E3E5A657CF7D76568A (int32_t ___0_key, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mousePosition_Injected_m7EF43ADB535051F9182A366CA84951F946984E1A (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mouseScrollDelta_Injected_m31BF633C98E1BBA4583E7FCE0573BDECB1BA4A29 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_ret, const RuntimeMethod* method) ;
@@ -1173,6 +1174,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButtonDown_mEF5F80C9E8F04104E80
 		return L_1;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_m2FFCC49AF36B74247CC1B412E9787A15D0984E95 (int32_t ___0_key, const RuntimeMethod* method) 
+{
+	typedef bool (*Input_GetKeyInt_m2FFCC49AF36B74247CC1B412E9787A15D0984E95_ftn) (int32_t);
+	static Input_GetKeyInt_m2FFCC49AF36B74247CC1B412E9787A15D0984E95_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyInt_m2FFCC49AF36B74247CC1B412E9787A15D0984E95_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)");
+	bool icallRetVal = _il2cpp_icall_func(___0_key);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUpInt_mB26B433DD3A21ACAF04D23252B09068EFFEDA0F9 (int32_t ___0_key, const RuntimeMethod* method) 
+{
+	typedef bool (*Input_GetKeyUpInt_mB26B433DD3A21ACAF04D23252B09068EFFEDA0F9_ftn) (int32_t);
+	static Input_GetKeyUpInt_mB26B433DD3A21ACAF04D23252B09068EFFEDA0F9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyUpInt_mB26B433DD3A21ACAF04D23252B09068EFFEDA0F9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)");
+	bool icallRetVal = _il2cpp_icall_func(___0_key);
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m0B655F969FCBC011BC2616E3E5A657CF7D76568A (int32_t ___0_key, const RuntimeMethod* method) 
 {
 	typedef bool (*Input_GetKeyDownInt_m0B655F969FCBC011BC2616E3E5A657CF7D76568A_ftn) (int32_t);
@@ -1237,6 +1256,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_ClearLastPenContactEvent_m3240C9BA
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Input_ClearLastPenContactEvent_m3240C9BA6CE089E85624BD0FA031A48CDE2664A3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::ClearLastPenContactEvent()");
 	_il2cpp_icall_func();
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434 (int32_t ___0_key, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_key;
+		bool L_1;
+		L_1 = Input_GetKeyInt_m2FFCC49AF36B74247CC1B412E9787A15D0984E95(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_m8D6171F09AC784866255D2634A3986A75644BE6C (String_t* ___0_name, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_name;
+		bool L_1;
+		L_1 = InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C(L_0, NULL);
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyUp_m9A962E395811A9901E7E05F267E198A533DBEF2F (int32_t ___0_key, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_key;
+		bool L_1;
+		L_1 = Input_GetKeyUpInt_mB26B433DD3A21ACAF04D23252B09068EFFEDA0F9(L_0, NULL);
+		return L_1;
+	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) 
 {
@@ -2520,26 +2566,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendMouseEvents__cctor_m6B1E043BF3142442
 #endif
 IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_pinvoke(const HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314& unmarshaled, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
+	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'target' of type 'HitInfo': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___targetException, NULL);
 }
 IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_pinvoke_back(const HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshaled_pinvoke& marshaled, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
+	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'target' of type 'HitInfo': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___targetException, NULL);
 }
 IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_pinvoke_cleanup(HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshaled_pinvoke& marshaled)
@@ -2547,26 +2579,12 @@ IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_p
 }
 IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_com(const HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314& unmarshaled, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
+	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'target' of type 'HitInfo': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___targetException, NULL);
 }
 IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_com_back(const HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshaled_com& marshaled, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314____target_FieldInfo_var, HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_0_0_0_var);
+	Exception_t* ___targetException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'target' of type 'HitInfo': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___targetException, NULL);
 }
 IL2CPP_EXTERN_C void HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshal_com_cleanup(HitInfo_t34AF939575E1C059D581AB7ED8F039BCFFC70314_marshaled_com& marshaled)
@@ -2696,6 +2714,15 @@ IL_002b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C (String_t* ___0_name, const RuntimeMethod* method) 
+{
+	typedef bool (*InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C_ftn) (String_t*);
+	static InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (InputUnsafeUtility_GetKeyString_m979A0145CF1B37BED79657AC3E42103E9842E41C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Internal.InputUnsafeUtility::GetKeyString(System.String)");
+	bool icallRetVal = _il2cpp_icall_func(___0_name);
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputUnsafeUtility_GetKeyString__Unmanaged_mD736022C3E6C98ED4B4AEA824AC2DA98A3A1B223 (uint8_t* ___0_name, int32_t ___1_nameLen, const RuntimeMethod* method) 
 {
 	typedef bool (*InputUnsafeUtility_GetKeyString__Unmanaged_mD736022C3E6C98ED4B4AEA824AC2DA98A3A1B223_ftn) (uint8_t*, int32_t);

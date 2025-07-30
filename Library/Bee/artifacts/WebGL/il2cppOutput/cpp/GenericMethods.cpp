@@ -151,7 +151,6 @@ struct Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C;
 struct Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B;
 struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
 struct Action_1_t923A20D1D4F6B55B2ED5AE21B90F1A0CE0450D99;
-struct Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930;
 struct ArraySortHelper_1_t57E1368AADCD0CA7218ECD3A540029D70D7AF2CE;
 struct ArraySortHelper_1_t4E6E37055EF2D0BF835814950875221DFF5A8AA2;
 struct ArraySortHelper_1_t3161D1D2810FDADCBA98BC302546D9CF98CFA41F;
@@ -7450,7 +7449,6 @@ struct BaseField_1_tE421F7A771C0D353CD97C6346D02FDF717CF55A8  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	double ___m_Value;
 	Func_2_t0221E9CE1FF8B8FE59AED052D562790B96F13B3D* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7469,7 +7467,6 @@ struct BaseField_1_tB351B262306464787F5A31B33CDC431E89796615  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	int32_t ___m_Value;
 	Func_2_t2FDA873D8482C79555CFB05233D610E8F1C7C354* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7488,7 +7485,6 @@ struct BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	int64_t ___m_Value;
 	Func_2_t0B663B3C621B47C182DE71861BC7D4AFC8CEBD62* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7507,7 +7503,6 @@ struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	RuntimeObject* ___m_Value;
 	Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7526,7 +7521,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	float ___m_Value;
 	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7545,7 +7539,6 @@ struct BaseField_1_t6C006A5753EBBCE7485D9205F7DDA7387F6CBA5C  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	uint32_t ___m_Value;
 	Func_2_t9A0EC31CF651400F36A816B75727B7A125B71A19* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7564,7 +7557,6 @@ struct BaseField_1_tF7A72945DC1CD809709A9E7805F92E7D25789942  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	uint64_t ___m_Value;
 	Func_2_tCCF02F7A2CB745300B9C766290B7B59C2CE4CEE7* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -7591,73 +7583,73 @@ struct TextInputBaseField_1_t34062BDA2EA570F154B05FB68863556F5A96A800  : public 
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t9B8585EEB5FFED192A9A4373403CD665CB85CC1A* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_t22B13113CAA1983EB68A9C82AA257206C5729320  : public BaseField_1_tB351B262306464787F5A31B33CDC431E89796615
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t4E2B3844AC78898554B9676B3ADBDEA4417AB531* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_tD863D3F1FEC67E004479FCF5081BA84B77B06A1A  : public BaseField_1_t1D211F1196D45DED55807E268A8B0E0D9F5D5088
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t0021DA4B6B176547906F16FC084DC50E43716BD7* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_tC693C9223BC3F56D9387F26A86CAB402209921C2  : public BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t1C4ADC0DE8BF430AA17D822D068E2204405C139A* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_t67DE1449A6CE94BE8C8AD0CB157926D8C4307019  : public BaseField_1_t6C006A5753EBBCE7485D9205F7DDA7387F6CBA5C
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t81D7FFAFEB2C97D442E7A82C81D3CD3FE841C27C* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_tF45683452C591CDF5627704F1F66766242B67044  : public BaseField_1_tF7A72945DC1CD809709A9E7805F92E7D25789942
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t9EC58223A237FB92957268CE5506C5FF0255D344* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct TextInputBaseField_1_tC43B489775F59FC88CE58986CF0DAD316DDD211E : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C {};
 struct TextValueField_1_t27A25218814D58EAC51F059664AD9FDB8CE9A8B4  : public TextInputBaseField_1_t34062BDA2EA570F154B05FB68863556F5A96A800
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_tEFB845C43DBCCED53F3348C4641127EE3AF0127E  : public TextInputBaseField_1_t22B13113CAA1983EB68A9C82AA257206C5729320
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_tE271E455D914413AD41123CF9A1ABC76CC5551E2  : public TextInputBaseField_1_tD863D3F1FEC67E004479FCF5081BA84B77B06A1A
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_t577850A2F4D172CB194B508EF12AC0D2096EA87B  : public TextInputBaseField_1_tC693C9223BC3F56D9387F26A86CAB402209921C2
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_t689D69EBB8C75FA23DF0BE6CA6A112C069D6DEB4  : public TextInputBaseField_1_t67DE1449A6CE94BE8C8AD0CB157926D8C4307019
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_t9FB092C335C24F8CA95AA38F81D205AC178E74D0  : public TextInputBaseField_1_tF45683452C591CDF5627704F1F66766242B67044
 {
 	BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7* ___m_Dragger;
+	bool ___m_UpdateTextFromValue;
 	bool ___m_ForceUpdateDisplay;
 };
 struct TextValueField_1_t3EE616C25ADA83566B7F1ED740D48CEA7F083127 : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C {};
@@ -15203,7 +15195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePopupField_2_ProcessPointerDown_TisR
 		RuntimeObject* L_7;
 		L_7 = VisualElement_get_schedule_m2BFE6967ED82371ACE1CD1FC32B8D8B93646ED76((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 26)), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 25)), NULL);
 		RuntimeObject* L_9;
 		L_9 = InterfaceFuncInvoker1< RuntimeObject*, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(1, IVisualElementScheduler_tA68650FA9218398E77265748741B091638336FD8_il2cpp_TypeInfo_var, L_7, L_8);
 		PointerEventBase_1_tCC99C5B34F8B8F012105435FC4A3CE4FD098045F* L_10 = ___0_evt;
@@ -15257,7 +15249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BasePopupField_2_ProcessPointerDown_TisR
 		RuntimeObject* L_7;
 		L_7 = VisualElement_get_schedule_m2BFE6967ED82371ACE1CD1FC32B8D8B93646ED76((VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)__this, NULL);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
-		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 26)), NULL);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_8, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 25)), NULL);
 		RuntimeObject* L_9;
 		L_9 = InterfaceFuncInvoker1< RuntimeObject*, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* >::Invoke(1, IVisualElementScheduler_tA68650FA9218398E77265748741B091638336FD8_il2cpp_TypeInfo_var, L_7, L_8);
 		PointerEventBase_1_tCC99C5B34F8B8F012105435FC4A3CE4FD098045F* L_10 = ___0_evt;
@@ -15807,7 +15799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisDoub
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dragger), (void*)(BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = TextInputBaseField_1_get_isReadOnly_mAD4A457343FE1BBD725D65C8C641AFC19AEB8BC6((TextInputBaseField_1_t34062BDA2EA570F154B05FB68863556F5A96A800*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		TextValueField_1_EnableLabelDragger_m7E206E5CA65382A3EF7B34699FF5DEF867CB7B8C(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		TextValueField_1_EnableLabelDragger_m7E206E5CA65382A3EF7B34699FF5DEF867CB7B8C(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }
@@ -15821,7 +15813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisInt3
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dragger), (void*)(BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = TextInputBaseField_1_get_isReadOnly_mC4A1CEDDB43F01072C356AD00D2341B3AC3659A6((TextInputBaseField_1_t22B13113CAA1983EB68A9C82AA257206C5729320*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		TextValueField_1_EnableLabelDragger_m6E1A40856B4B519DFE4F3C1F7885D0CAB649A501(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		TextValueField_1_EnableLabelDragger_m6E1A40856B4B519DFE4F3C1F7885D0CAB649A501(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }
@@ -15835,7 +15827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisInt6
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dragger), (void*)(BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = TextInputBaseField_1_get_isReadOnly_m45FA0DB54393F4A9C0C5F21908E0A18DCF98C931((TextInputBaseField_1_tD863D3F1FEC67E004479FCF5081BA84B77B06A1A*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		TextValueField_1_EnableLabelDragger_m3179EA71B81E87D5EC40B76F953C2EADCC60086A(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		TextValueField_1_EnableLabelDragger_m3179EA71B81E87D5EC40B76F953C2EADCC60086A(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }
@@ -15849,7 +15841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisSing
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dragger), (void*)(BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = TextInputBaseField_1_get_isReadOnly_mB4F287197207823D71E45B6DFF4BC70DBB844449((TextInputBaseField_1_tC693C9223BC3F56D9387F26A86CAB402209921C2*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		TextValueField_1_EnableLabelDragger_mB4D4990414D43132B6A5A71483D8BE4C46051CA0(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		TextValueField_1_EnableLabelDragger_mB4D4990414D43132B6A5A71483D8BE4C46051CA0(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }
@@ -15863,7 +15855,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisUInt
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dragger), (void*)(BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = TextInputBaseField_1_get_isReadOnly_m064E36D051BF959DEA26BF30C019FA57FAFB7BA0((TextInputBaseField_1_t67DE1449A6CE94BE8C8AD0CB157926D8C4307019*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		TextValueField_1_EnableLabelDragger_mD999BEED896EB7A05475CBB9581009D18FF7F22C(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		TextValueField_1_EnableLabelDragger_mD999BEED896EB7A05475CBB9581009D18FF7F22C(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }
@@ -15877,7 +15869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisUInt
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Dragger), (void*)(BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = TextInputBaseField_1_get_isReadOnly_mAD21DCBE510615BBF7BDC78A2601C5CAA3B10111((TextInputBaseField_1_tF45683452C591CDF5627704F1F66766242B67044*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		TextValueField_1_EnableLabelDragger_mF2680FFFB32C8697F90079699562308DB69F81EA(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		TextValueField_1_EnableLabelDragger_mF2680FFFB32C8697F90079699562308DB69F81EA(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }
@@ -15887,10 +15879,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextValueField_1_AddLabelDragger_TisIl2C
 	{
 		FieldMouseDragger_1_tC567589469BCED065F4E66A16363416F0C030B9F* L_0 = (FieldMouseDragger_1_tC567589469BCED065F4E66A16363416F0C030B9F*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->rgctx_data, 1));
 		((  void (*) (FieldMouseDragger_1_tC567589469BCED065F4E66A16363416F0C030B9F*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 2)))(L_0, ((RuntimeObject*)Castclass((RuntimeObject*)__this, il2cpp_rgctx_data(method->rgctx_data, 0))), il2cpp_rgctx_method(method->rgctx_data, 2));
-		il2cpp_codegen_write_instance_field_data<BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 25),0), (BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
+		il2cpp_codegen_write_instance_field_data<BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 8),0), (BaseFieldMouseDragger_t6BB06D66A91C4C7DF3B50011F54727FB8CE92ED7*)L_0);
 		bool L_1;
 		L_1 = ((  bool (*) (TextInputBaseField_1_tC43B489775F59FC88CE58986CF0DAD316DDD211E*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 26)))((TextInputBaseField_1_tC43B489775F59FC88CE58986CF0DAD316DDD211E*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 26));
-		((  void (*) (TextValueField_1_t3EE616C25ADA83566B7F1ED740D48CEA7F083127*, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 24)))(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 24));
+		((  void (*) (TextValueField_1_t3EE616C25ADA83566B7F1ED740D48CEA7F083127*, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 25)))(__this, (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0), il2cpp_rgctx_method(method->klass->rgctx_data, 25));
 		return;
 	}
 }

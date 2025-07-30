@@ -14765,7 +14765,6 @@ IL_032b:
 
 IL_032e:
 	{
-		__this->___m_TintSprite = (bool)0;
 		TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09* L_161 = ___2_textInfo;
 		TextElementInfoU5BU5D_tEC28C9B72883EE21AA798913497C69E179A15C4E* L_162 = L_161->___textElementInfo;
 		int32_t L_163 = __this->___m_CharacterCount;

@@ -440,11 +440,6 @@ IL2CPP_EXTERN_C RuntimeClass* UpdateStatus_t87124FCD563B568C5B20A9707A364CD043AC
 IL2CPP_EXTERN_C RuntimeClass* UpdateTracker_t6893F6B93CD3BB70B50DF85D8616F505BF2F5787_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral20543B3471A4F19DEEE5D3493EBD551C4EAAE0B6;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral27159F93ADA7491397CF4A278ACD49D1B256081D;
@@ -571,11 +566,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_Invoke_mAA9534144654F6FB57E8E1
 IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_2_Invoke_mC508808A77547B63EBFD23EB42810BBB0EA7D313_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector3_set_Item_m79136861DEC5862CE7EC20AB3B0EF10A3957CEC3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeType* AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com;
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com;;
@@ -6198,26 +6188,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CinemachineTransposer__ctor_m66F1121D233
 
 IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal_pinvoke(const AxisState_t6996FE8143104E02683986C908C18B0F62595736& unmarshaled, AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var, AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
+	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_InputAxisProvider' of type 'AxisState': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_InputAxisProviderException, NULL);
 }
 IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal_pinvoke_back(const AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshaled_pinvoke& marshaled, AxisState_t6996FE8143104E02683986C908C18B0F62595736& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var, AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
+	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_InputAxisProvider' of type 'AxisState': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_InputAxisProviderException, NULL);
 }
 IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal_pinvoke_cleanup(AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshaled_pinvoke& marshaled)
@@ -6227,26 +6203,12 @@ IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal
 
 IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal_com(const AxisState_t6996FE8143104E02683986C908C18B0F62595736& unmarshaled, AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var, AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
+	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_InputAxisProvider' of type 'AxisState': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_InputAxisProviderException, NULL);
 }
 IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal_com_back(const AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshaled_com& marshaled, AxisState_t6996FE8143104E02683986C908C18B0F62595736& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", AxisState_t6996FE8143104E02683986C908C18B0F62595736____m_InputAxisProvider_FieldInfo_var, AxisState_t6996FE8143104E02683986C908C18B0F62595736_0_0_0_var);
+	Exception_t* ___m_InputAxisProviderException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_InputAxisProvider' of type 'AxisState': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_InputAxisProviderException, NULL);
 }
 IL2CPP_EXTERN_C void AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshal_com_cleanup(AxisState_t6996FE8143104E02683986C908C18B0F62595736_marshaled_com& marshaled)
@@ -7669,26 +7631,12 @@ IL2CPP_EXTERN_C  bool Recentering_LegacyUpgrade_m17A3ED97851377053B2385331ED85BE
 
 IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshal_pinvoke(const CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156& unmarshaled, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
+	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_CustomOverflow' of type 'CameraState'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_CustomOverflowException, NULL);
 }
 IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshal_pinvoke_back(const CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshaled_pinvoke& marshaled, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
+	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_CustomOverflow' of type 'CameraState'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_CustomOverflowException, NULL);
 }
 IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshal_pinvoke_cleanup(CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshaled_pinvoke& marshaled)
@@ -7706,26 +7654,12 @@ IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marsh
 
 IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshal_com(const CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156& unmarshaled, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
+	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_CustomOverflow' of type 'CameraState'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_CustomOverflowException, NULL);
 }
 IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshal_com_back(const CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshaled_com& marshaled, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156____m_CustomOverflow_FieldInfo_var, CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_0_0_0_var);
+	Exception_t* ___m_CustomOverflowException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_CustomOverflow' of type 'CameraState'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_CustomOverflowException, NULL);
 }
 IL2CPP_EXTERN_C void CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshal_com_cleanup(CameraState_tBC57F8D313D0D19718B24CFBD690C089C2140156_marshaled_com& marshaled)
@@ -17913,26 +17847,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CinemachineVirtualCameraBase__ctor_m1BAC
 #endif
 IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshal_pinvoke(const TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA& unmarshaled, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
+	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_OnCameraLive' of type 'TransitionParams': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_OnCameraLiveException, NULL);
 }
 IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshal_pinvoke_back(const TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshaled_pinvoke& marshaled, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
+	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_OnCameraLive' of type 'TransitionParams': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_OnCameraLiveException, NULL);
 }
 IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshal_pinvoke_cleanup(TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshaled_pinvoke& marshaled)
@@ -17940,26 +17860,12 @@ IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_
 }
 IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshal_com(const TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA& unmarshaled, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
+	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_OnCameraLive' of type 'TransitionParams': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_OnCameraLiveException, NULL);
 }
 IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshal_com_back(const TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshaled_com& marshaled, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA____m_OnCameraLive_FieldInfo_var, TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_0_0_0_var);
+	Exception_t* ___m_OnCameraLiveException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_OnCameraLive' of type 'TransitionParams': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_OnCameraLiveException, NULL);
 }
 IL2CPP_EXTERN_C void TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshal_com_cleanup(TransitionParams_tB597191957C5719625DEDBA130A4C3437346CDCA_marshaled_com& marshaled)
@@ -20063,26 +19969,12 @@ IL2CPP_EXTERN_C  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 AspectStretch
 #endif
 IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshal_pinvoke(const PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C& unmarshaled, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
+	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'polygons' of type 'PolygonSolution'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___polygonsException, NULL);
 }
 IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshal_pinvoke_back(const PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshaled_pinvoke& marshaled, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
+	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'polygons' of type 'PolygonSolution'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___polygonsException, NULL);
 }
 IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshal_pinvoke_cleanup(PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshaled_pinvoke& marshaled)
@@ -20090,26 +19982,12 @@ IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_m
 }
 IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshal_com(const PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C& unmarshaled, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
+	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'polygons' of type 'PolygonSolution'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___polygonsException, NULL);
 }
 IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshal_com_back(const PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshaled_com& marshaled, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C____polygons_FieldInfo_var, PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_0_0_0_var);
+	Exception_t* ___polygonsException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'polygons' of type 'PolygonSolution'.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___polygonsException, NULL);
 }
 IL2CPP_EXTERN_C void PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshal_com_cleanup(PolygonSolution_tAF24FAC932885B257486B439AACD765C7D49CB4C_marshaled_com& marshaled)
@@ -20242,26 +20120,12 @@ IL2CPP_EXTERN_C  bool PolygonSolution_get_IsNull_m55D141117498A201C12B86647EB9B1
 
 IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshal_pinvoke(const BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273& unmarshaled, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
+	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'offsetter' of type 'BakingStateCache': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___offsetterException, NULL);
 }
 IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshal_pinvoke_back(const BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshaled_pinvoke& marshaled, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
+	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'offsetter' of type 'BakingStateCache': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___offsetterException, NULL);
 }
 IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshal_pinvoke_cleanup(BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshaled_pinvoke& marshaled)
@@ -20273,26 +20137,12 @@ IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_
 
 IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshal_com(const BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273& unmarshaled, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
+	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'offsetter' of type 'BakingStateCache': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___offsetterException, NULL);
 }
 IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshal_com_back(const BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshaled_com& marshaled, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273____offsetter_FieldInfo_var, BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_0_0_0_var);
+	Exception_t* ___offsetterException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'offsetter' of type 'BakingStateCache': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___offsetterException, NULL);
 }
 IL2CPP_EXTERN_C void BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshal_com_cleanup(BakingStateCache_t04149B9F8981F95E25B7B8D10E79AAA83FA15273_marshaled_com& marshaled)

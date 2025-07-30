@@ -438,7 +438,6 @@ struct Action_1_t996DFD52B4BDA6CBE8058C13167C4D2B8C612CAA;
 struct Action_1_t3DC3411926243F1DB9C330F8E105B904E38C1A0B;
 struct Action_1_t6043513E89820190529C82ABBDD8FD0BB2A9AC09;
 struct Action_1_t310F18CB4338A2740CA701F160C62E2C3198E66A;
-struct Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930;
 struct Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8;
 struct BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA;
 struct BasicNode_1_t7B4D545DCD6949B2E1C85D63DF038E44602F7DDB;
@@ -3264,7 +3263,6 @@ struct BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	float ___m_Value;
 	Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -3308,12 +3306,9 @@ struct BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE  : p
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_ItemsSourceChangedCallback;
 	RuntimeObject* ___m_RebuildScheduled;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_TouchDownPosition;
-	int64_t ___m_LastPointerDownTimeStamp;
-	int32_t ___m_PointerDownCount;
 };
 struct BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA  : public BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7
 {
-	float ___m_AdjustedPageSizeFromClick;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___U3CdragContainerU3Ek__BackingField;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___U3CdragElementU3Ek__BackingField;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___U3CtrackElementU3Ek__BackingField;
@@ -7672,8 +7667,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedHeightVirtualizationController_1_Re
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
-	int32_t V_3 = 0;
-	float V_4 = 0.0f;
+	float V_3 = 0.0f;
+	int32_t V_4 = 0;
 	int32_t V_5 = 0;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_6;
 	memset((&V_6), 0, sizeof(V_6));
@@ -7692,189 +7687,193 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FixedHeightVirtualizationController_1_Re
 	bool V_19 = false;
 	{
 		float L_0;
-		L_0 = VirtualFuncInvoker0< float >::Invoke(13, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		L_0 = FixedHeightVirtualizationController_1_get_resolvedItemHeight_mFB400B046CA8B80D5EABFFE86D271BAC9DD60DF7(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
 		V_0 = L_0;
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_1 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_2;
-		L_2 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(99, (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_1);
-		RuntimeObject* L_3;
-		L_3 = VisualElement_get_style_mDCFF8D835BE0AFE412905E108F48B32A83734224(L_2, NULL);
-		float L_4 = V_0;
-		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 L_5;
-		L_5 = StyleLength_op_Implicit_mA1ED6E9AD696C34231A35B83084B1298A700B019(L_4, NULL);
-		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(24, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_3, L_5);
-		float L_6 = V_0;
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_7 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_8;
-		L_8 = ScrollView_get_contentViewport_mC91CCE63C249B77A5D192BEBC9C600C212C724B8_inline(L_7, NULL);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9;
-		L_9 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_8, NULL);
-		V_6 = L_9;
-		float L_10;
-		L_10 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_6), NULL);
+		float L_1;
+		L_1 = VirtualFuncInvoker0< float >::Invoke(13, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		V_1 = L_1;
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_2 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_3;
+		L_3 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(99, (VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_2);
+		RuntimeObject* L_4;
+		L_4 = VisualElement_get_style_mDCFF8D835BE0AFE412905E108F48B32A83734224(L_3, NULL);
+		float L_5 = V_1;
+		StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 L_6;
+		L_6 = StyleLength_op_Implicit_mA1ED6E9AD696C34231A35B83084B1298A700B019(L_5, NULL);
+		InterfaceActionInvoker1< StyleLength_tF02B24735FC88BE29BEB36F7A87709CA28AF72D8 >::Invoke(24, IStyle_t4FD66C97CA5F46BFE328FED0C65277A37E0A89F7_il2cpp_TypeInfo_var, L_4, L_6);
+		float L_7 = V_1;
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_8 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_9;
+		L_9 = ScrollView_get_contentViewport_mC91CCE63C249B77A5D192BEBC9C600C212C724B8_inline(L_8, NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_10;
+		L_10 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_9, NULL);
+		V_6 = L_10;
 		float L_11;
-		L_11 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_6, L_10)), NULL);
-		V_1 = L_11;
-		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_12;
-		L_12 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_13 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_12->___scrollOffset);
-		float L_14 = L_13->___y;
-		float L_15 = V_1;
-		float L_16;
-		L_16 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_14, L_15, NULL);
-		V_2 = L_16;
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_17 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_18;
-		L_18 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_17, NULL);
-		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_19;
-		L_19 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_18, NULL);
-		float L_20 = V_1;
-		BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544((BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*)L_19, L_20, BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544_RuntimeMethod_var);
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_21 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
-		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_22;
-		L_22 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_21, NULL);
-		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_23;
-		L_23 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_22, NULL);
-		float L_24 = V_2;
-		VirtualActionInvoker1< float >::Invoke(118, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_23, L_24);
-		V_3 = 0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25 = ___0_size;
-		float L_26 = L_25.___y;
-		float L_27;
-		L_27 = FixedHeightVirtualizationController_1_get_resolvedItemHeight_mFB400B046CA8B80D5EABFFE86D271BAC9DD60DF7(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
-		V_4 = ((float)(L_26/L_27));
-		float L_28 = V_4;
-		V_7 = (bool)((((float)L_28) > ((float)(0.0f)))? 1 : 0);
-		bool L_29 = V_7;
-		if (!L_29)
+		L_11 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_6), NULL);
+		float L_12;
+		L_12 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_7, L_11)), NULL);
+		V_2 = L_12;
+		SerializedVirtualizationData_t8EA4D4340BC124E7FC98396C263F0FEC091B53CB* L_13;
+		L_13 = VerticalVirtualizationController_1_get_serializedData_mBAE175BB1331E669FE93C025037ADDE19158A837((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_14 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_13->___scrollOffset);
+		float L_15 = L_14->___y;
+		float L_16 = V_2;
+		float L_17;
+		L_17 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_15, L_16, NULL);
+		V_3 = L_17;
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_18 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_19;
+		L_19 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_18, NULL);
+		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_20;
+		L_20 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_19, NULL);
+		float L_21 = V_2;
+		BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544((BaseSlider_1_t72796443D058B00401238104911BE7078A9FD0BA*)L_20, L_21, BaseSlider_1_SetHighValueWithoutNotify_m3C4A5FEA320F8533C8CA18D4450FD5D1B5514544_RuntimeMethod_var);
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_22 = ((CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this)->___m_ScrollView;
+		Scroller_tFE2BC2FCB5D2BD623828C332E0BBF95D472D99A8* L_23;
+		L_23 = ScrollView_get_verticalScroller_mDCBC1E09B2754C31BF917818CB07E5F36EC0D13A_inline(L_22, NULL);
+		Slider_t5891706383A14955E3FAD68A79829F3234681652* L_24;
+		L_24 = Scroller_get_slider_mE18FB3CD0B7E2817E27C245324A129C70E1FE27C_inline(L_23, NULL);
+		float L_25 = V_3;
+		VirtualActionInvoker1< float >::Invoke(117, (BaseField_1_t1BD309672FAB87887168305A09C320E26F166DA7*)L_24, L_25);
+		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_26 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_CollectionView;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27 = ___0_size;
+		float L_28 = L_27.___y;
+		float L_29;
+		L_29 = BaseVerticalCollectionView_ResolveItemHeight_mC3024AC52E0AF9443C9954DA7D0834C94AD727AB(L_26, L_28, NULL);
+		float L_30 = V_0;
+		V_4 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_29/L_30)));
+		int32_t L_31 = V_4;
+		V_7 = (bool)((((int32_t)L_31) > ((int32_t)0))? 1 : 0);
+		bool L_32 = V_7;
+		if (!L_32)
 		{
-			goto IL_00b5;
+			goto IL_00bd;
 		}
 	}
 	{
-		float L_30 = V_4;
-		V_3 = ((int32_t)il2cpp_codegen_add(il2cpp_codegen_cast_double_to_int<int32_t>(L_30), 2));
+		int32_t L_33 = V_4;
+		V_4 = ((int32_t)il2cpp_codegen_add(L_33, 2));
 	}
 
-IL_00b5:
+IL_00bd:
 	{
-		int32_t L_31 = V_3;
-		int32_t L_32;
-		L_32 = VerticalVirtualizationController_1_get_itemsCount_m41C7EC9F6A7BC1C8586B50841E845B6414F9801F((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
-		int32_t L_33;
-		L_33 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_31, L_32, NULL);
-		V_5 = L_33;
-		int32_t L_34;
-		L_34 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		int32_t L_35 = V_5;
-		V_8 = (bool)((((int32_t)((((int32_t)L_34) == ((int32_t)L_35))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_36 = V_8;
-		if (!L_36)
-		{
-			goto IL_0178;
-		}
-	}
-	{
+		int32_t L_34 = V_4;
+		int32_t L_35;
+		L_35 = VerticalVirtualizationController_1_get_itemsCount_m41C7EC9F6A7BC1C8586B50841E845B6414F9801F((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		int32_t L_36;
+		L_36 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_34, L_35, NULL);
+		V_5 = L_36;
 		int32_t L_37;
 		L_37 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		V_9 = L_37;
-		int32_t L_38;
-		L_38 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		int32_t L_39 = V_5;
-		V_10 = (bool)((((int32_t)L_38) > ((int32_t)L_39))? 1 : 0);
-		bool L_40 = V_10;
-		if (!L_40)
+		int32_t L_38 = V_5;
+		V_8 = (bool)((((int32_t)((((int32_t)L_37) == ((int32_t)L_38))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_39 = V_8;
+		if (!L_39)
 		{
-			goto IL_012e;
+			goto IL_0181;
 		}
 	}
 	{
-		int32_t L_41 = V_9;
+		int32_t L_40;
+		L_40 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		V_9 = L_40;
+		int32_t L_41;
+		L_41 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
 		int32_t L_42 = V_5;
-		V_11 = ((int32_t)il2cpp_codegen_subtract(L_41, L_42));
+		V_10 = (bool)((((int32_t)L_41) > ((int32_t)L_42))? 1 : 0);
+		bool L_43 = V_10;
+		if (!L_43)
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		int32_t L_44 = V_9;
+		int32_t L_45 = V_5;
+		V_11 = ((int32_t)il2cpp_codegen_subtract(L_44, L_45));
 		V_12 = 0;
-		goto IL_011f;
+		goto IL_0128;
 	}
 
-IL_00ff:
+IL_0108:
 	{
-		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_43 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
-		int32_t L_44;
-		L_44 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_43, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		V_13 = ((int32_t)il2cpp_codegen_subtract(L_44, 1));
-		int32_t L_45 = V_13;
-		VirtualActionInvoker1< int32_t >::Invoke(23, (VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, L_45);
-		int32_t L_46 = V_12;
-		V_12 = ((int32_t)il2cpp_codegen_add(L_46, 1));
+		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_46 = ((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this)->___m_ActiveItems;
+		int32_t L_47;
+		L_47 = List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_inline(L_46, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
+		V_13 = ((int32_t)il2cpp_codegen_subtract(L_47, 1));
+		int32_t L_48 = V_13;
+		VirtualActionInvoker1< int32_t >::Invoke(23, (VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, L_48);
+		int32_t L_49 = V_12;
+		V_12 = ((int32_t)il2cpp_codegen_add(L_49, 1));
 	}
 
-IL_011f:
+IL_0128:
 	{
-		int32_t L_47 = V_12;
-		int32_t L_48 = V_11;
-		V_14 = (bool)((((int32_t)L_47) < ((int32_t)L_48))? 1 : 0);
-		bool L_49 = V_14;
-		if (L_49)
+		int32_t L_50 = V_12;
+		int32_t L_51 = V_11;
+		V_14 = (bool)((((int32_t)L_50) < ((int32_t)L_51))? 1 : 0);
+		bool L_52 = V_14;
+		if (L_52)
 		{
-			goto IL_00ff;
+			goto IL_0108;
 		}
 	}
 	{
-		goto IL_0177;
+		goto IL_0180;
 	}
 
-IL_012e:
+IL_0137:
 	{
-		int32_t L_50 = V_5;
-		int32_t L_51;
-		L_51 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		V_15 = ((int32_t)il2cpp_codegen_subtract(L_50, L_51));
+		int32_t L_53 = V_5;
+		int32_t L_54;
+		L_54 = VirtualFuncInvoker0< int32_t >::Invoke(6, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		V_15 = ((int32_t)il2cpp_codegen_subtract(L_53, L_54));
 		V_16 = 0;
-		goto IL_016a;
+		goto IL_0173;
 	}
 
-IL_013f:
+IL_0148:
 	{
-		int32_t L_52 = V_16;
-		int32_t L_53;
-		L_53 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
-		int32_t L_54 = V_9;
-		V_17 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_52, L_53)), L_54));
-		RuntimeObject* L_55;
-		L_55 = VirtualFuncInvoker2< RuntimeObject*, int32_t, int32_t >::Invoke(22, (VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, (-1), (-1));
-		V_18 = L_55;
-		RuntimeObject* L_56 = V_18;
-		int32_t L_57 = V_17;
-		VerticalVirtualizationController_1_Setup_mC5415B4D4C6B65EB15FC1EB2EC4C85661E092CEA((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, L_56, L_57, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
-		int32_t L_58 = V_16;
-		V_16 = ((int32_t)il2cpp_codegen_add(L_58, 1));
+		int32_t L_55 = V_16;
+		int32_t L_56;
+		L_56 = VirtualFuncInvoker0< int32_t >::Invoke(4, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this);
+		int32_t L_57 = V_9;
+		V_17 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_55, L_56)), L_57));
+		RuntimeObject* L_58;
+		L_58 = VirtualFuncInvoker2< RuntimeObject*, int32_t, int32_t >::Invoke(22, (VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, (-1), (-1));
+		V_18 = L_58;
+		RuntimeObject* L_59 = V_18;
+		int32_t L_60 = V_17;
+		VerticalVirtualizationController_1_Setup_mC5415B4D4C6B65EB15FC1EB2EC4C85661E092CEA((VerticalVirtualizationController_1_t9E15DCA430B4BA0FF230AC5A5E026167325EA345*)__this, L_59, L_60, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
+		int32_t L_61 = V_16;
+		V_16 = ((int32_t)il2cpp_codegen_add(L_61, 1));
 	}
 
-IL_016a:
+IL_0173:
 	{
-		int32_t L_59 = V_16;
-		int32_t L_60 = V_15;
-		V_19 = (bool)((((int32_t)L_59) < ((int32_t)L_60))? 1 : 0);
-		bool L_61 = V_19;
-		if (L_61)
+		int32_t L_62 = V_16;
+		int32_t L_63 = V_15;
+		V_19 = (bool)((((int32_t)L_62) < ((int32_t)L_63))? 1 : 0);
+		bool L_64 = V_19;
+		if (L_64)
 		{
-			goto IL_013f;
+			goto IL_0148;
 		}
 	}
 	{
 	}
 
-IL_0177:
+IL_0180:
 	{
 	}
 
-IL_0178:
+IL_0181:
 	{
-		float L_62 = V_2;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_63;
-		memset((&L_63), 0, sizeof(L_63));
-		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_63), (0.0f), L_62, NULL);
-		VirtualActionInvoker1< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 >::Invoke(10, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, L_63);
+		float L_65 = V_3;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_66;
+		memset((&L_66), 0, sizeof(L_66));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_66), (0.0f), L_65, NULL);
+		VirtualActionInvoker1< Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 >::Invoke(10, (CollectionVirtualizationController_t55D4B8A3B70A7C50AC8BEF90F18EF888017E7801*)__this, L_66);
 		return;
 	}
 }

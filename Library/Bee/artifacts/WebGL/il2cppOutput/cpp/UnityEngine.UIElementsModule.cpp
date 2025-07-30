@@ -276,7 +276,6 @@ struct Action_1_t6043513E89820190529C82ABBDD8FD0BB2A9AC09;
 struct Action_1_t05F6A7FC9FBB588EC4A828E23375838E340354CB;
 struct Action_1_t66B514BE877E216616DEDD40416127189FE16FA3;
 struct Action_1_t28FBAE79F893547A07D226BAE7DAF27C4568F7C9;
-struct Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930;
 struct Action_2_t240BAEB1DC7A6558995FFCB7E0186F2ABB2CE346;
 struct Action_2_t5F23CC3B7A8A73A4EA03ECC4C0C36453937843DB;
 struct Action_2_t723CF5545926725AE4B055BB8E304D27E617A846;
@@ -3708,7 +3707,6 @@ struct BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	bool ___m_Value;
 	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -3727,7 +3725,6 @@ struct BaseField_1_t5B07C4F16426F3DB4A05D137F6E0A910FAC6B21B  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	RuntimeObject* ___m_Value;
 	Func_2_tACBF5A1656250800CE861707354491F0611F6624* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -3746,7 +3743,6 @@ struct BaseField_1_tCFD0CD0290BAF33C363F8F2C2AC37320EBA86BE5  : public BindableE
 	float ___m_LabelBaseMinWidth;
 	float ___m_LabelExtraContextWidth;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___m_VisualInput;
-	Action_1_tAE453A6458E1DAD68CAF44DC8FF62EC18FEAA930* ___expressionEvaluated;
 	String_t* ___m_Value;
 	Func_2_t85D1F7C2022B349817C22FC72C474CD33FFABE93* ___onValidateValue;
 	Label_tC160668F9119CE0F5567021FB208E64A5B1C5B70* ___U3ClabelElementU3Ek__BackingField;
@@ -3790,8 +3786,6 @@ struct BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE  : p
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___m_ItemsSourceChangedCallback;
 	RuntimeObject* ___m_RebuildScheduled;
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_TouchDownPosition;
-	int64_t ___m_LastPointerDownTimeStamp;
-	int32_t ___m_PointerDownCount;
 };
 struct Foldout_t150CF00C27D0C105EC2831E0BA1C5D8A96EF5DC3  : public BindableElement_t873EFF65032D21AB3B7BFBA21675D1693967435C
 {
@@ -3845,7 +3839,6 @@ struct TextInputBaseField_1_tB92AF7223ADFB610C49A05AC45918DC385A4D840  : public 
 {
 	int32_t ___m_VisualInputTabIndex;
 	TextInputBase_t0D5056EFC1F0EE9F3ABEC383BD112983341D267C* ___m_TextInputBase;
-	bool ___m_UpdateTextFromValue;
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___onIsReadOnlyChanged;
 };
 struct BaseBoolField_t01F8AFD72D18F0EB65F949062615550A9ED30B0D  : public BaseField_1_t33E37D3A182C1DDE900EA4039FE03BF68FD0CD26
@@ -24779,7 +24772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReusableTreeViewItem_SetExpandedWithoutN
 IL_000d:
 	{
 		bool L_2 = ___0_expanded;
-		VirtualActionInvoker1< bool >::Invoke(118, G_B2_0, L_2);
+		VirtualActionInvoker1< bool >::Invoke(117, G_B2_0, L_2);
 	}
 
 IL_0014:
@@ -25150,13 +25143,6 @@ IL_0087:
 
 IL_0088:
 	{
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContextualMenuManager__ctor_m6B87B2F07A95636ADB6B8488F35F8BA4AD4B7AEC (ContextualMenuManager_tEE3B1F33FFFD180705467CA625AEBA0F5D63154B* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }
@@ -25800,7 +25786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseBoolField__ctor_m03425F09EE8336FD178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseBoolField_OnNavigationSubmit_m6D6494D09510A072D2156DC9F7E71698D14C6C7B (BaseBoolField_t01F8AFD72D18F0EB65F949062615550A9ED30B0D* __this, NavigationSubmitEvent_t193DCBDB6CBC8FF9F0A545B48962188505665BB1* ___0_evt, const RuntimeMethod* method) 
 {
 	{
-		VirtualActionInvoker0::Invoke(120, __this);
+		VirtualActionInvoker0::Invoke(119, __this);
 		NavigationSubmitEvent_t193DCBDB6CBC8FF9F0A545B48962188505665BB1* L_0 = ___0_evt;
 		EventBase_StopPropagation_mEFC7E5AB7164157065FF19064A6ADCBB0D8AF6FB(L_0, NULL);
 		return;
@@ -25872,7 +25858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseBoolField_set_text_mEE1205D6F5A9E94D
 		}
 	}
 	{
-		VirtualActionInvoker0::Invoke(119, __this);
+		VirtualActionInvoker0::Invoke(118, __this);
 	}
 
 IL_0025:
@@ -26028,7 +26014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseBoolField_OnClickEvent_m8CAE14D9EE0A
 		}
 	}
 	{
-		VirtualActionInvoker0::Invoke(120, __this);
+		VirtualActionInvoker0::Invoke(119, __this);
 	}
 
 IL_0030:
@@ -26088,7 +26074,7 @@ IL_0050:
 		}
 	}
 	{
-		VirtualActionInvoker0::Invoke(120, __this);
+		VirtualActionInvoker0::Invoke(119, __this);
 	}
 
 IL_0076:
@@ -27018,7 +27004,7 @@ IL_0040:
 		ChangeEvent_1_tC8920B8153267870361787158B3897821AA4522F* L_13 = ___0_evt;
 		String_t* L_14;
 		L_14 = ChangeEvent_1_get_previousValue_mF293FF9A279ED1A61169230F85C8134ABFA66ADC_inline(L_13, ChangeEvent_1_get_previousValue_mF293FF9A279ED1A61169230F85C8134ABFA66ADC_RuntimeMethod_var);
-		VirtualActionInvoker1< String_t* >::Invoke(118, L_12, L_14);
+		VirtualActionInvoker1< String_t* >::Invoke(117, L_12, L_14);
 		goto IL_00e4;
 	}
 
@@ -27197,7 +27183,7 @@ IL_001b:
 		V_2 = L_8;
 		String_t* L_9;
 		L_9 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
-		VirtualActionInvoker1< String_t* >::Invoke(118, L_6, L_9);
+		VirtualActionInvoker1< String_t* >::Invoke(117, L_6, L_9);
 	}
 
 IL_004c:

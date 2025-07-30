@@ -640,13 +640,17 @@
           },
           {
             "name": "Rigidbody",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }
@@ -658,7 +662,7 @@
           {
             "name": "Collider2D",
             "scenes": [],
-            "dependencyType": 0,
+            "dependencyType": 1,
             "icon": null
           },
           {

@@ -23134,7 +23134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSet_1_SendFullRange_m9AE9D73BC1CD97E
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_0)->___m_Length);
 		uint32_t L_2 = __this->___m_ElemStride;
-		V_0 = (uint32_t)((int32_t)(uint32_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)(uint64_t)((uint32_t)L_2)))));
+		V_0 = (uint32_t)((int32_t)(uint32_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)(uint64_t)L_2))));
 		NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421* L_3 = (NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421*)(&__this->___updateRanges);
 		uint32_t L_4 = __this->___m_UpdateRangesBatchStart;
 		il2cpp_codegen_initobj((&V_1), sizeof(GfxUpdateBufferRange_t2991435FD0E056C19D7E3D4E524C13493F244B4C));
@@ -23371,7 +23371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSet_1_ResetUpdateState_m7ECCC15503B9
 		NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421* L_3 = (NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421*)(&__this->___updateRanges);
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_3)->___m_Length);
-		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)((uint32_t)L_2))) < ((int64_t)((int64_t)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)L_2)) < ((int64_t)((int64_t)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_0;
 		if (!L_5)
 		{
@@ -23800,7 +23800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSet_1_SendFullRange_mD3261CCB43378E1
 		int32_t L_1;
 		L_1 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_0)->___m_Length);
 		uint32_t L_2 = __this->___m_ElemStride;
-		V_0 = (uint32_t)((int32_t)(uint32_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)(uint64_t)((uint32_t)L_2)))));
+		V_0 = (uint32_t)((int32_t)(uint32_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)(uint64_t)L_2))));
 		NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421* L_3 = (NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421*)(&__this->___updateRanges);
 		uint32_t L_4 = __this->___m_UpdateRangesBatchStart;
 		il2cpp_codegen_initobj((&V_1), sizeof(GfxUpdateBufferRange_t2991435FD0E056C19D7E3D4E524C13493F244B4C));
@@ -24037,7 +24037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSet_1_ResetUpdateState_m3E76857D00FB
 		NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421* L_3 = (NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421*)(&__this->___updateRanges);
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_3)->___m_Length);
-		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)((uint32_t)L_2))) < ((int64_t)((int64_t)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)L_2)) < ((int64_t)((int64_t)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_0;
 		if (!L_5)
 		{
@@ -24466,7 +24466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSet_1_SendFullRange_m51D36BB81832FA9
 		int32_t L_1;
 		L_1 = ((  int32_t (*) (NativeArray_1_tDB8B8DC66CC8E16ED6D9A8C75D2C1AFC80AC1E18*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 12)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
 		uint32_t L_2 = __this->___m_ElemStride;
-		V_0 = (uint32_t)((int32_t)(uint32_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)(uint64_t)((uint32_t)L_2)))));
+		V_0 = (uint32_t)((int32_t)(uint32_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)(uint64_t)L_2))));
 		NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421* L_3 = (NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421*)(&__this->___updateRanges);
 		uint32_t L_4 = __this->___m_UpdateRangesBatchStart;
 		il2cpp_codegen_initobj((&V_1), sizeof(GfxUpdateBufferRange_t2991435FD0E056C19D7E3D4E524C13493F244B4C));
@@ -24703,7 +24703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataSet_1_ResetUpdateState_mC1C28EA24CA7
 		NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421* L_3 = (NativeArray_1_t70CC53B5D3DD2663B4FA4C73609D8D98EFDB2421*)(&__this->___updateRanges);
 		int32_t L_4;
 		L_4 = IL2CPP_NATIVEARRAY_GET_LENGTH((L_3)->___m_Length);
-		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)((uint32_t)L_2))) < ((int64_t)((int64_t)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)(uint64_t)L_2)) < ((int64_t)((int64_t)L_4)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_0;
 		if (!L_5)
 		{

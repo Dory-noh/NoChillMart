@@ -10326,7 +10326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t BinaryReader_ReadInt64_m104936D2647DC
 		int32_t L_22 = 7;
 		uint8_t L_23 = (L_21)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_22));
 		uint32_t L_24 = V_0;
-		return ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)((int32_t)L_14|((int32_t)((int32_t)L_17<<8))))|((int32_t)((int32_t)L_20<<((int32_t)16)))))|((int32_t)((int32_t)L_23<<((int32_t)24)))))))<<((int32_t)32)))|((int64_t)(uint64_t)((uint32_t)L_24))));
+		return ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)((int32_t)L_14|((int32_t)((int32_t)L_17<<8))))|((int32_t)((int32_t)L_20<<((int32_t)16)))))|((int32_t)((int32_t)L_23<<((int32_t)24)))))))<<((int32_t)32)))|((int64_t)(uint64_t)L_24)));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t BinaryReader_ReadUInt64_m7F9B6ADFEE76180346B65862854BAF2D8488C70F (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* __this, const RuntimeMethod* method) 
@@ -10360,7 +10360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t BinaryReader_ReadUInt64_m7F9B6ADFEE7
 		int32_t L_22 = 7;
 		uint8_t L_23 = (L_21)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_22));
 		uint32_t L_24 = V_0;
-		return ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)((int32_t)L_14|((int32_t)((int32_t)L_17<<8))))|((int32_t)((int32_t)L_20<<((int32_t)16)))))|((int32_t)((int32_t)L_23<<((int32_t)24)))))))<<((int32_t)32)))|((int64_t)(uint64_t)((uint32_t)L_24))));
+		return ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)((int32_t)(((int32_t)(((int32_t)((int32_t)L_14|((int32_t)((int32_t)L_17<<8))))|((int32_t)((int32_t)L_20<<((int32_t)16)))))|((int32_t)((int32_t)L_23<<((int32_t)24)))))))<<((int32_t)32)))|((int64_t)(uint64_t)L_24)));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BinaryReader_ReadSingle_mE51073F127C8DD48CBFA721C5C2840F8F921745D (BinaryReader_t9A6D85F0FE9AE4EBB5E8D66997DFD1D84939E158* __this, const RuntimeMethod* method) 

@@ -79,6 +79,7 @@ int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
     public void GenerateCustormer()
     {
+        GameManager.Instance.DayCount++;
         int len = 6;
         float alienProbability = Random.Range(0.0f, 2.0f);
         isAlien = (alienProbability < 1.3f) ? false : true; 

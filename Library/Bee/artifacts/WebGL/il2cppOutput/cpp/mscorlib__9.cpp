@@ -605,8 +605,6 @@ IL2CPP_EXTERN_C RuntimeClass* UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1E
 IL2CPP_EXTERN_C RuntimeClass* WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WellKnownClientTypeEntry_t347372ACAC92831B98A6A1743747BAB5993D6058_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WellKnownServiceTypeEntry_tDDA2E122B4DDF9380DA4B94FD9347D38FD9CF85F_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeField* RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var;
-IL2CPP_EXTERN_C RuntimeField* TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____819B40F8CF7DC49B4275955A17C10239F1BBBB3BF96E26E25ED844B96B645D7F_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0458562336F91AC3F0C3FE71A886E75CE5C8F84A;
 IL2CPP_EXTERN_C String_t* _stringLiteral062DB096C728515E033CF8C48A1C1F0B9A79384B;
@@ -878,11 +876,9 @@ IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA042134938
 IL2CPP_EXTERN_C const RuntimeType* MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* OneWayAttribute_t775A812FA0CCB72BADD1837C608A9DA340F4EEDC_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* ProxyAttribute_t53A8D8A39EB54BF7FEDCC8ABD79302AE84967471_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* RemoteActivator_tBF26F92637B843E420A90ED095E4F170130B16ED_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* RuntimeObject_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* SoapAttribute_t41093087BF547190DF8FF1D30BF50ACBDB003AD9_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var;
 struct AsyncResult_t125D959CA0F9FB74EF9F7DF4E04F15BB1B265760_marshaled_com;
 struct AsyncResult_t125D959CA0F9FB74EF9F7DF4E04F15BB1B265760_marshaled_pinvoke;
 struct Context_t2CCB8C97E2B9649D3A11A72438694220AEA6CF95;;
@@ -3401,13 +3397,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializationInfo_AddValue_m9D6ADD10966D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* EncodingProvider_GetEncodingFromProvider_m88843B78EEFFC1DD36E355E0BB0D112E0462E899 (int32_t ___0_codepage, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Environment_GetResourceString_m387DBA146605FD20F6627F5B90483D180616E259 (String_t* ___0_key, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_values, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mE5B2755F0BEA043CACF915D5CE140859EE58FA66 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, String_t* ___1_message, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Encoding_get_InternalSyncObject_mD17D24A175E48C72D756538C7805175B43F71F77 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___0_obj, bool* ___1_lockTaken, const RuntimeMethod* method) ;
 inline bool Dictionary_2_TryGetValue_m47D94996EF41E69DB5B7836E5B6132193EF72D55 (Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* __this, int32_t ___0_key, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095** ___1_value, const RuntimeMethod* method)
 {
 	return ((  bool (*) (Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54*, int32_t, Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095**, const RuntimeMethod*))Dictionary_2_TryGetValue_m7316301B8CF47FB538886B229B2749EC160B9D5C_gshared)(__this, ___0_key, ___1_value, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Encoding_get_InternalSyncObject_mD17D24A175E48C72D756538C7805175B43F71F77 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___0_obj, bool* ___1_lockTaken, const RuntimeMethod* method) ;
 inline void Dictionary_2__ctor_mA0D082545CDFD9B6CED4514A4EC4B75524627E53 (Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* __this, const RuntimeMethod* method)
 {
 	((  void (*) (Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54*, const RuntimeMethod*))Dictionary_2__ctor_m92E9AB321FBD7147CA109C822D99C8B0610C27B7_gshared)(__this, method);
@@ -5151,9 +5147,33 @@ IL_0018:
 
 IL_0049:
 	{
-		RuntimeObject* L_15;
-		L_15 = Encoding_get_InternalSyncObject_mD17D24A175E48C72D756538C7805175B43F71F77(NULL);
-		V_1 = L_15;
+		Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* L_15 = ((Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields*)il2cpp_codegen_static_fields_for(Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_il2cpp_TypeInfo_var))->___encodings;
+		il2cpp_codegen_memory_barrier();
+		if (!L_15)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* L_16 = ((Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields*)il2cpp_codegen_static_fields_for(Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_il2cpp_TypeInfo_var))->___encodings;
+		il2cpp_codegen_memory_barrier();
+		int32_t L_17 = ___0_codepage;
+		bool L_18;
+		L_18 = Dictionary_2_TryGetValue_m47D94996EF41E69DB5B7836E5B6132193EF72D55(L_16, L_17, (&V_0), Dictionary_2_TryGetValue_m47D94996EF41E69DB5B7836E5B6132193EF72D55_RuntimeMethod_var);
+	}
+
+IL_0062:
+	{
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_19 = V_0;
+		if (L_19)
+		{
+			goto IL_024d;
+		}
+	}
+	{
+		RuntimeObject* L_20;
+		L_20 = Encoding_get_InternalSyncObject_mD17D24A175E48C72D756538C7805175B43F71F77(NULL);
+		V_1 = L_20;
 		V_2 = (bool)0;
 	}
 	{
@@ -5163,15 +5183,15 @@ IL_0049:
 FINALLY_0243:
 			{
 				{
-					bool L_16 = V_2;
-					if (!L_16)
+					bool L_21 = V_2;
+					if (!L_21)
 					{
 						goto IL_024c;
 					}
 				}
 				{
-					RuntimeObject* L_17 = V_1;
-					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_17, NULL);
+					RuntimeObject* L_22 = V_1;
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_22, NULL);
 				}
 
 IL_024c:
@@ -5183,32 +5203,8 @@ IL_024c:
 		try
 		{
 			{
-				RuntimeObject* L_18 = V_1;
-				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_18, (&V_2), NULL);
-				Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* L_19 = ((Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields*)il2cpp_codegen_static_fields_for(Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_il2cpp_TypeInfo_var))->___encodings;
-				il2cpp_codegen_memory_barrier();
-				if (!L_19)
-				{
-					goto IL_0072_1;
-				}
-			}
-			{
-				Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* L_20 = ((Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields*)il2cpp_codegen_static_fields_for(Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_il2cpp_TypeInfo_var))->___encodings;
-				il2cpp_codegen_memory_barrier();
-				int32_t L_21 = ___0_codepage;
-				bool L_22;
-				L_22 = Dictionary_2_TryGetValue_m47D94996EF41E69DB5B7836E5B6132193EF72D55(L_20, L_21, (&V_0), Dictionary_2_TryGetValue_m47D94996EF41E69DB5B7836E5B6132193EF72D55_RuntimeMethod_var);
-			}
-
-IL_0072_1:
-			{
-				Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_23 = V_0;
-				if (L_23)
-				{
-					goto IL_0241_1;
-				}
-			}
-			{
+				RuntimeObject* L_23 = V_1;
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_23, (&V_2), NULL);
 				Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* L_24 = ((Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields*)il2cpp_codegen_static_fields_for(Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_il2cpp_TypeInfo_var))->___encodings;
 				il2cpp_codegen_memory_barrier();
 				if (L_24)
@@ -5546,10 +5542,6 @@ IL_0233_1:
 				int32_t L_86 = ___0_codepage;
 				Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_87 = V_0;
 				Dictionary_2_Add_m3428A45A7D528F6FA4FB0FE287EDA50192B05400(L_85, L_86, L_87, Dictionary_2_Add_m3428A45A7D528F6FA4FB0FE287EDA50192B05400_RuntimeMethod_var);
-			}
-
-IL_0241_1:
-			{
 				goto IL_024d;
 			}
 		}
@@ -26040,26 +26032,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ProxyAttribute_IsContextOK_m4B6E0E34A3D3
 
 IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshal_pinvoke(const TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8& unmarshaled, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
+	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_rp' of type 'TransparentProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____rpException, NULL);
 }
 IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshal_pinvoke_back(const TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshaled_pinvoke& marshaled, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
+	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_rp' of type 'TransparentProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____rpException, NULL);
 }
 IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshal_pinvoke_cleanup(TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshaled_pinvoke& marshaled)
@@ -26069,26 +26047,12 @@ IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_
 
 IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshal_com(const TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8& unmarshaled, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
+	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_rp' of type 'TransparentProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____rpException, NULL);
 }
 IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshal_com_back(const TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshaled_com& marshaled, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_____rp_FieldInfo_var, TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_0_0_0_var);
+	Exception_t* ____rpException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_rp' of type 'TransparentProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____rpException, NULL);
 }
 IL2CPP_EXTERN_C void TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshal_com_cleanup(TransparentProxy_t943163A9C567330AAD61F9F42479D4EAD2A55DD8_marshaled_com& marshaled)
@@ -26445,26 +26409,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TransparentProxy__ctor_mC475E6BF32E09792
 
 IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal_pinvoke(const RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB& unmarshaled, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshaled_pinvoke& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
+	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'class_to_proxy' of type 'RealProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___class_to_proxyException, NULL);
 }
 IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal_pinvoke_back(const RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshaled_pinvoke& marshaled, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
+	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'class_to_proxy' of type 'RealProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___class_to_proxyException, NULL);
 }
 IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal_pinvoke_cleanup(RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshaled_pinvoke& marshaled)
@@ -26476,26 +26426,12 @@ IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal
 
 IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal_com(const RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB& unmarshaled, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshaled_com& marshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
+	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'class_to_proxy' of type 'RealProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___class_to_proxyException, NULL);
 }
 IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal_com_back(const RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshaled_com& marshaled, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB& unmarshaled)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB____class_to_proxy_FieldInfo_var, RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_0_0_0_var);
+	Exception_t* ___class_to_proxyException = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'class_to_proxy' of type 'RealProxy': Reference type field marshaling is not supported.");
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___class_to_proxyException, NULL);
 }
 IL2CPP_EXTERN_C void RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshal_com_cleanup(RealProxy_t2D3667E71799D4A142B9E0EDED7FD858277FC9AB_marshaled_com& marshaled)
